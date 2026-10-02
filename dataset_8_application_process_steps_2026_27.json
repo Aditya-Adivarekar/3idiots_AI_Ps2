@@ -1,0 +1,1417 @@
+{
+  "metadata": {
+    "dataset_name": "Dataset 8 - Application Process / Steps",
+    "version": "1.0",
+    "academic_year_focus": "2026-27",
+    "generated_on": "2026-10-01",
+    "scholarship_count": 20,
+    "linked_datasets": [
+      "dataset_1_scholarship_master_2026_27.json",
+      "dataset_2_eligibility_rules_2026_27.json",
+      "dataset_3_documents_required_2026_27.json",
+      "dataset_5_2_evidence_sources_p0_hardened_2026_27.json"
+    ],
+    "purpose": "Describe how a student actually applies after eligibility/documents are understood.",
+    "process_model": [
+      "registration",
+      "login",
+      "scheme_selection",
+      "form_filling",
+      "document_upload",
+      "review",
+      "final_submission",
+      "verification_or_selection",
+      "tracking",
+      "payment_or_award"
+    ],
+    "critical_distinctions": [
+      "Eligibility is not the same as successful application submission.",
+      "Successful submission is not the same as verification.",
+      "Verification is not the same as final scholarship selection/award.",
+      "Application-process steps can change each cycle; use current source metadata."
+    ]
+  },
+  "application_process": [
+    {
+      "scholarship_id": "GOV01",
+      "scholarship_name": "PM-USP Central Sector Scheme of Scholarship for College and University Students (CSSS)",
+      "academic_year": "2026-27",
+      "application_portal": "National Scholarship Portal",
+      "application_url": "https://scholarships.gov.in/",
+      "registration_required": true,
+      "registration_method": "NSP One Time Registration (OTR) using Aadhaar/Aadhaar Enrolment ID",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Scheme/portal dependent; do not assume edits are allowed after final submit.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Generate or use existing One Time Registration (OTR).",
+          "details": "OTR is Aadhaar/Aadhaar Enrolment ID based and is valid for the student's academic career."
+        },
+        {
+          "step": 2,
+          "action": "Login to NSP using OTR ID and password.",
+          "details": "Fresh and renewal applications are handled from the student login/dashboard."
+        },
+        {
+          "step": 3,
+          "action": "Check scholarship eligibility / select the applicable scheme.",
+          "details": "Choose the correct fresh or renewal application and scheme."
+        },
+        {
+          "step": 4,
+          "action": "Complete the scholarship application form.",
+          "details": "Enter personal, academic, domicile/category/income/bank and scheme-specific information."
+        },
+        {
+          "step": 5,
+          "action": "Upload or provide required scheme documents/details.",
+          "details": "Upload/enter the documents and evidence requested for that scholarship."
+        },
+        {
+          "step": 6,
+          "action": "Review the application carefully.",
+          "details": "Check scheme, profile, bank and document information before final submission."
+        },
+        {
+          "step": 7,
+          "action": "Final-submit the application.",
+          "details": "Submission sends the application into the NSP verification workflow."
+        },
+        {
+          "step": 8,
+          "action": "Application is verified by the institution and designated authorities.",
+          "details": "Institute and higher-level verification deadlines/statuses are separate from student submission."
+        },
+        {
+          "step": 9,
+          "action": "Track application status from NSP.",
+          "details": "Use the student login/dashboard to check application progress."
+        },
+        {
+          "step": 10,
+          "action": "Track scholarship payment where applicable.",
+          "details": "NSP links students to PFMS/payment tracking for disbursement status."
+        }
+      ],
+      "verification_stages": [
+        "Student final submission",
+        "Institute verification",
+        "Department/State/Ministry or L2 verification",
+        "Sanction/selection where applicable",
+        "DBT/payment processing"
+      ],
+      "tracking_method": "NSP student dashboard; PFMS for payment tracking where applicable",
+      "renewal_process": "Login with OTR → select Renewal → update/confirm current-year information → upload required renewal documents → final submit.",
+      "source_url": "https://scholarships.gov.in/fresh1819/Students",
+      "source_type": "official_nsp",
+      "verification_status": "verified_current",
+      "notes": "For AY 2026-27, the currently surfaced CSSS application is renewal; choose Renewal rather than Fresh."
+    },
+    {
+      "scholarship_id": "GOV02",
+      "scholarship_name": "AICTE Pragati Scholarship Scheme for Girl Students (Technical Degree)",
+      "academic_year": "2026-27",
+      "application_portal": "National Scholarship Portal",
+      "application_url": "https://scholarships.gov.in/",
+      "registration_required": true,
+      "registration_method": "NSP One Time Registration (OTR) using Aadhaar/Aadhaar Enrolment ID",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Scheme/portal dependent; do not assume edits are allowed after final submit.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Generate or use existing One Time Registration (OTR).",
+          "details": "OTR is Aadhaar/Aadhaar Enrolment ID based and is valid for the student's academic career."
+        },
+        {
+          "step": 2,
+          "action": "Login to NSP using OTR ID and password.",
+          "details": "Fresh and renewal applications are handled from the student login/dashboard."
+        },
+        {
+          "step": 3,
+          "action": "Check scholarship eligibility / select the applicable scheme.",
+          "details": "Choose the correct fresh or renewal application and scheme."
+        },
+        {
+          "step": 4,
+          "action": "Complete the scholarship application form.",
+          "details": "Enter personal, academic, domicile/category/income/bank and scheme-specific information."
+        },
+        {
+          "step": 5,
+          "action": "Upload or provide required scheme documents/details.",
+          "details": "Upload/enter the documents and evidence requested for that scholarship."
+        },
+        {
+          "step": 6,
+          "action": "Review the application carefully.",
+          "details": "Check scheme, profile, bank and document information before final submission."
+        },
+        {
+          "step": 7,
+          "action": "Final-submit the application.",
+          "details": "Submission sends the application into the NSP verification workflow."
+        },
+        {
+          "step": 8,
+          "action": "Application is verified by the institution and designated authorities.",
+          "details": "Institute and higher-level verification deadlines/statuses are separate from student submission."
+        },
+        {
+          "step": 9,
+          "action": "Track application status from NSP.",
+          "details": "Use the student login/dashboard to check application progress."
+        },
+        {
+          "step": 10,
+          "action": "Track scholarship payment where applicable.",
+          "details": "NSP links students to PFMS/payment tracking for disbursement status."
+        }
+      ],
+      "verification_stages": [
+        "Student final submission",
+        "Institute verification",
+        "Department/State/Ministry or L2 verification",
+        "Sanction/selection where applicable",
+        "DBT/payment processing"
+      ],
+      "tracking_method": "NSP student dashboard; PFMS for payment tracking where applicable",
+      "renewal_process": "Login with OTR → select Renewal → update/confirm current-year information → upload required renewal documents → final submit.",
+      "source_url": "https://scholarships.gov.in/fresh1819/Students",
+      "source_type": "official_nsp",
+      "verification_status": "verified_current",
+      "notes": "Standard NSP 2026-27 student workflow."
+    },
+    {
+      "scholarship_id": "GOV03",
+      "scholarship_name": "AICTE Saksham Scholarship Scheme for Specially Abled Students (Technical Degree)",
+      "academic_year": "2026-27",
+      "application_portal": "National Scholarship Portal",
+      "application_url": "https://scholarships.gov.in/",
+      "registration_required": true,
+      "registration_method": "NSP One Time Registration (OTR) using Aadhaar/Aadhaar Enrolment ID",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Scheme/portal dependent; do not assume edits are allowed after final submit.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Generate or use existing One Time Registration (OTR).",
+          "details": "OTR is Aadhaar/Aadhaar Enrolment ID based and is valid for the student's academic career."
+        },
+        {
+          "step": 2,
+          "action": "Login to NSP using OTR ID and password.",
+          "details": "Fresh and renewal applications are handled from the student login/dashboard."
+        },
+        {
+          "step": 3,
+          "action": "Check scholarship eligibility / select the applicable scheme.",
+          "details": "Choose the correct fresh or renewal application and scheme."
+        },
+        {
+          "step": 4,
+          "action": "Complete the scholarship application form.",
+          "details": "Enter personal, academic, domicile/category/income/bank and scheme-specific information."
+        },
+        {
+          "step": 5,
+          "action": "Upload or provide required scheme documents/details.",
+          "details": "Upload/enter the documents and evidence requested for that scholarship."
+        },
+        {
+          "step": 6,
+          "action": "Review the application carefully.",
+          "details": "Check scheme, profile, bank and document information before final submission."
+        },
+        {
+          "step": 7,
+          "action": "Final-submit the application.",
+          "details": "Submission sends the application into the NSP verification workflow."
+        },
+        {
+          "step": 8,
+          "action": "Application is verified by the institution and designated authorities.",
+          "details": "Institute and higher-level verification deadlines/statuses are separate from student submission."
+        },
+        {
+          "step": 9,
+          "action": "Track application status from NSP.",
+          "details": "Use the student login/dashboard to check application progress."
+        },
+        {
+          "step": 10,
+          "action": "Track scholarship payment where applicable.",
+          "details": "NSP links students to PFMS/payment tracking for disbursement status."
+        }
+      ],
+      "verification_stages": [
+        "Student final submission",
+        "Institute verification",
+        "Department/State/Ministry or L2 verification",
+        "Sanction/selection where applicable",
+        "DBT/payment processing"
+      ],
+      "tracking_method": "NSP student dashboard; PFMS for payment tracking where applicable",
+      "renewal_process": "Login with OTR → select Renewal → update/confirm current-year information → upload required renewal documents → final submit.",
+      "source_url": "https://scholarships.gov.in/fresh1819/Students",
+      "source_type": "official_nsp",
+      "verification_status": "verified_current",
+      "notes": "Standard NSP 2026-27 student workflow."
+    },
+    {
+      "scholarship_id": "GOV04",
+      "scholarship_name": "AICTE Swanath Scholarship Scheme (Technical Degree)",
+      "academic_year": "2026-27",
+      "application_portal": "National Scholarship Portal",
+      "application_url": "https://scholarships.gov.in/",
+      "registration_required": true,
+      "registration_method": "NSP One Time Registration (OTR) using Aadhaar/Aadhaar Enrolment ID",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Official myScheme guidance warns that changes may not be possible after submission; review before Final Submit.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Generate/use NSP OTR.",
+          "details": "Current NSP requires OTR for scholarship applications."
+        },
+        {
+          "step": 2,
+          "action": "Login to NSP and choose the Swanath scheme.",
+          "details": "Use OTR credentials and select the correct Degree/Diploma Swanath scheme."
+        },
+        {
+          "step": 3,
+          "action": "Fill the application form.",
+          "details": "Provide domicile, scholarship category, student details, DOB, gender, mobile/email, bank and identification information."
+        },
+        {
+          "step": 4,
+          "action": "Upload category-specific evidence and other required documents.",
+          "details": "Examples include orphan/COVID-19/martyr evidence, income proof where applicable, bonafide and marksheets."
+        },
+        {
+          "step": 5,
+          "action": "Save as draft if incomplete.",
+          "details": "Complete missing fields/documents before final submission."
+        },
+        {
+          "step": 6,
+          "action": "Review and Final Submit.",
+          "details": "myScheme warns that incorrect final submissions may not be editable; avoid multiple applications."
+        },
+        {
+          "step": 7,
+          "action": "Institute/authority verification.",
+          "details": "Application proceeds through NSP verification."
+        },
+        {
+          "step": 8,
+          "action": "Track status and DBT.",
+          "details": "Use NSP status tracking; successful awards are disbursed by DBT to the eligible student's bank account."
+        }
+      ],
+      "verification_stages": [
+        "Student final submission",
+        "Institute verification",
+        "Department/State/Ministry or L2 verification",
+        "Sanction/selection where applicable",
+        "DBT/payment processing"
+      ],
+      "tracking_method": "NSP student dashboard; PFMS for payment tracking where applicable",
+      "renewal_process": "Login with OTR → select Renewal → update/confirm current-year information → upload required renewal documents → final submit.",
+      "source_url": "https://www.myscheme.gov.in/schemes/aicte-ssss",
+      "source_type": "official_myscheme_plus_current_nsp",
+      "verification_status": "verified_current",
+      "notes": "myScheme also documents a legacy NSP-style register/login/application-form flow; current NSP requires OTR."
+    },
+    {
+      "scholarship_id": "GOV05",
+      "scholarship_name": "PM YASASVI Top Class Education in College for OBC, EBC and DNT Students",
+      "academic_year": "2026-27",
+      "application_portal": "National Scholarship Portal",
+      "application_url": "https://scholarships.gov.in/",
+      "registration_required": true,
+      "registration_method": "NSP One Time Registration (OTR) using Aadhaar/Aadhaar Enrolment ID",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Scheme/portal dependent; do not assume edits are allowed after final submit.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Generate or use existing One Time Registration (OTR).",
+          "details": "OTR is Aadhaar/Aadhaar Enrolment ID based and is valid for the student's academic career."
+        },
+        {
+          "step": 2,
+          "action": "Login to NSP using OTR ID and password.",
+          "details": "Fresh and renewal applications are handled from the student login/dashboard."
+        },
+        {
+          "step": 3,
+          "action": "Check scholarship eligibility / select the applicable scheme.",
+          "details": "Choose the correct fresh or renewal application and scheme."
+        },
+        {
+          "step": 4,
+          "action": "Complete the scholarship application form.",
+          "details": "Enter personal, academic, domicile/category/income/bank and scheme-specific information."
+        },
+        {
+          "step": 5,
+          "action": "Upload or provide required scheme documents/details.",
+          "details": "Upload/enter the documents and evidence requested for that scholarship."
+        },
+        {
+          "step": 6,
+          "action": "Review the application carefully.",
+          "details": "Check scheme, profile, bank and document information before final submission."
+        },
+        {
+          "step": 7,
+          "action": "Final-submit the application.",
+          "details": "Submission sends the application into the NSP verification workflow."
+        },
+        {
+          "step": 8,
+          "action": "Application is verified by the institution and designated authorities.",
+          "details": "Institute and higher-level verification deadlines/statuses are separate from student submission."
+        },
+        {
+          "step": 9,
+          "action": "Track application status from NSP.",
+          "details": "Use the student login/dashboard to check application progress."
+        },
+        {
+          "step": 10,
+          "action": "Track scholarship payment where applicable.",
+          "details": "NSP links students to PFMS/payment tracking for disbursement status."
+        }
+      ],
+      "verification_stages": [
+        "Student final submission",
+        "Institute verification",
+        "Department/State/Ministry or L2 verification",
+        "Sanction/selection where applicable",
+        "DBT/payment processing"
+      ],
+      "tracking_method": "NSP student dashboard; PFMS for payment tracking where applicable",
+      "renewal_process": "Login with OTR → select Renewal → update/confirm current-year information → upload required renewal documents → final submit.",
+      "source_url": "https://scholarships.gov.in/fresh1819/Students",
+      "source_type": "official_nsp",
+      "verification_status": "verified_current",
+      "notes": "Standard NSP 2026-27 student workflow."
+    },
+    {
+      "scholarship_id": "GOV06",
+      "scholarship_name": "Central Sector Scholarship of Top Class Education for SC Students",
+      "academic_year": "2026-27",
+      "application_portal": "National Scholarship Portal",
+      "application_url": "https://scholarships.gov.in/",
+      "registration_required": true,
+      "registration_method": "NSP One Time Registration (OTR) using Aadhaar/Aadhaar Enrolment ID",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Scheme/portal dependent; do not assume edits are allowed after final submit.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Generate or use existing One Time Registration (OTR).",
+          "details": "OTR is Aadhaar/Aadhaar Enrolment ID based and is valid for the student's academic career."
+        },
+        {
+          "step": 2,
+          "action": "Login to NSP using OTR ID and password.",
+          "details": "Fresh and renewal applications are handled from the student login/dashboard."
+        },
+        {
+          "step": 3,
+          "action": "Check scholarship eligibility / select the applicable scheme.",
+          "details": "Choose the correct fresh or renewal application and scheme."
+        },
+        {
+          "step": 4,
+          "action": "Complete the scholarship application form.",
+          "details": "Enter personal, academic, domicile/category/income/bank and scheme-specific information."
+        },
+        {
+          "step": 5,
+          "action": "Upload or provide required scheme documents/details.",
+          "details": "Upload/enter the documents and evidence requested for that scholarship."
+        },
+        {
+          "step": 6,
+          "action": "Review the application carefully.",
+          "details": "Check scheme, profile, bank and document information before final submission."
+        },
+        {
+          "step": 7,
+          "action": "Final-submit the application.",
+          "details": "Submission sends the application into the NSP verification workflow."
+        },
+        {
+          "step": 8,
+          "action": "Application is verified by the institution and designated authorities.",
+          "details": "Institute and higher-level verification deadlines/statuses are separate from student submission."
+        },
+        {
+          "step": 9,
+          "action": "Track application status from NSP.",
+          "details": "Use the student login/dashboard to check application progress."
+        },
+        {
+          "step": 10,
+          "action": "Track scholarship payment where applicable.",
+          "details": "NSP links students to PFMS/payment tracking for disbursement status."
+        }
+      ],
+      "verification_stages": [
+        "Student final submission",
+        "Institute verification",
+        "Department/State/Ministry or L2 verification",
+        "Sanction/selection where applicable",
+        "DBT/payment processing"
+      ],
+      "tracking_method": "NSP student dashboard; PFMS for payment tracking where applicable",
+      "renewal_process": "Login with OTR → select Renewal → update/confirm current-year information → upload required renewal documents → final submit.",
+      "source_url": "https://scholarships.gov.in/fresh1819/Students",
+      "source_type": "official_nsp",
+      "verification_status": "verified_current",
+      "notes": "Standard NSP 2026-27 student workflow."
+    },
+    {
+      "scholarship_id": "GOV07",
+      "scholarship_name": "Post-Matric Scholarship for Students with Disabilities",
+      "academic_year": "2026-27",
+      "application_portal": "National Scholarship Portal",
+      "application_url": "https://scholarships.gov.in/",
+      "registration_required": true,
+      "registration_method": "NSP One Time Registration (OTR) using Aadhaar/Aadhaar Enrolment ID",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Scheme/portal dependent; do not assume edits are allowed after final submit.",
+      "process_steps": [
+        {
+          "step": 0,
+          "action": "Complete UDID consent before NSP submission.",
+          "details": "Disabled applicants must log in to the UDID portal and consent to sharing UDID details; otherwise NSP submission is blocked."
+        },
+        {
+          "step": 1,
+          "action": "Generate or use existing One Time Registration (OTR).",
+          "details": "OTR is Aadhaar/Aadhaar Enrolment ID based and is valid for the student's academic career."
+        },
+        {
+          "step": 2,
+          "action": "Login to NSP using OTR ID and password.",
+          "details": "Fresh and renewal applications are handled from the student login/dashboard."
+        },
+        {
+          "step": 3,
+          "action": "Check scholarship eligibility / select the applicable scheme.",
+          "details": "Choose the correct fresh or renewal application and scheme."
+        },
+        {
+          "step": 4,
+          "action": "Complete the scholarship application form.",
+          "details": "Enter personal, academic, domicile/category/income/bank and scheme-specific information."
+        },
+        {
+          "step": 5,
+          "action": "Upload or provide required scheme documents/details.",
+          "details": "Upload/enter the documents and evidence requested for that scholarship."
+        },
+        {
+          "step": 6,
+          "action": "Review the application carefully.",
+          "details": "Check scheme, profile, bank and document information before final submission."
+        },
+        {
+          "step": 7,
+          "action": "Final-submit the application.",
+          "details": "Submission sends the application into the NSP verification workflow."
+        },
+        {
+          "step": 8,
+          "action": "Application is verified by the institution and designated authorities.",
+          "details": "Institute and higher-level verification deadlines/statuses are separate from student submission."
+        },
+        {
+          "step": 9,
+          "action": "Track application status from NSP.",
+          "details": "Use the student login/dashboard to check application progress."
+        },
+        {
+          "step": 10,
+          "action": "Track scholarship payment where applicable.",
+          "details": "NSP links students to PFMS/payment tracking for disbursement status."
+        }
+      ],
+      "verification_stages": [
+        "Student final submission",
+        "Institute verification",
+        "Department/State/Ministry or L2 verification",
+        "Sanction/selection where applicable",
+        "DBT/payment processing"
+      ],
+      "tracking_method": "NSP student dashboard; PFMS for payment tracking where applicable",
+      "renewal_process": "Login with OTR → select Renewal → update/confirm current-year information → upload required renewal documents → final submit.",
+      "source_url": "https://scholarships.gov.in/fresh1819/Students",
+      "source_type": "official_nsp",
+      "verification_status": "verified_current",
+      "notes": "UDID consent is a current NSP prerequisite for disabled applicants."
+    },
+    {
+      "scholarship_id": "GOV08",
+      "scholarship_name": "Scholarship for Top Class Education for Students with Disabilities",
+      "academic_year": "2026-27",
+      "application_portal": "National Scholarship Portal",
+      "application_url": "https://scholarships.gov.in/",
+      "registration_required": true,
+      "registration_method": "NSP One Time Registration (OTR) using Aadhaar/Aadhaar Enrolment ID",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Scheme/portal dependent; do not assume edits are allowed after final submit.",
+      "process_steps": [
+        {
+          "step": 0,
+          "action": "Complete UDID consent before NSP submission.",
+          "details": "Disabled applicants must log in to the UDID portal and consent to sharing UDID details; otherwise NSP submission is blocked."
+        },
+        {
+          "step": 1,
+          "action": "Generate or use existing One Time Registration (OTR).",
+          "details": "OTR is Aadhaar/Aadhaar Enrolment ID based and is valid for the student's academic career."
+        },
+        {
+          "step": 2,
+          "action": "Login to NSP using OTR ID and password.",
+          "details": "Fresh and renewal applications are handled from the student login/dashboard."
+        },
+        {
+          "step": 3,
+          "action": "Check scholarship eligibility / select the applicable scheme.",
+          "details": "Choose the correct fresh or renewal application and scheme."
+        },
+        {
+          "step": 4,
+          "action": "Complete the scholarship application form.",
+          "details": "Enter personal, academic, domicile/category/income/bank and scheme-specific information."
+        },
+        {
+          "step": 5,
+          "action": "Upload or provide required scheme documents/details.",
+          "details": "Upload/enter the documents and evidence requested for that scholarship."
+        },
+        {
+          "step": 6,
+          "action": "Review the application carefully.",
+          "details": "Check scheme, profile, bank and document information before final submission."
+        },
+        {
+          "step": 7,
+          "action": "Final-submit the application.",
+          "details": "Submission sends the application into the NSP verification workflow."
+        },
+        {
+          "step": 8,
+          "action": "Application is verified by the institution and designated authorities.",
+          "details": "Institute and higher-level verification deadlines/statuses are separate from student submission."
+        },
+        {
+          "step": 9,
+          "action": "Track application status from NSP.",
+          "details": "Use the student login/dashboard to check application progress."
+        },
+        {
+          "step": 10,
+          "action": "Track scholarship payment where applicable.",
+          "details": "NSP links students to PFMS/payment tracking for disbursement status."
+        }
+      ],
+      "verification_stages": [
+        "Student final submission",
+        "Institute verification",
+        "Department/State/Ministry or L2 verification",
+        "Sanction/selection where applicable",
+        "DBT/payment processing"
+      ],
+      "tracking_method": "NSP student dashboard; PFMS for payment tracking where applicable",
+      "renewal_process": "Login with OTR → select Renewal → update/confirm current-year information → upload required renewal documents → final submit.",
+      "source_url": "https://scholarships.gov.in/fresh1819/Students",
+      "source_type": "official_nsp",
+      "verification_status": "verified_current",
+      "notes": "UDID consent is a current NSP prerequisite for disabled applicants."
+    },
+    {
+      "scholarship_id": "GOV09",
+      "scholarship_name": "National Scholarship for Post Graduate Studies",
+      "academic_year": "2026-27",
+      "application_portal": "National Scholarship Portal",
+      "application_url": "https://scholarships.gov.in/",
+      "registration_required": true,
+      "registration_method": "NSP One Time Registration (OTR) using Aadhaar/Aadhaar Enrolment ID",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Scheme/portal dependent; do not assume edits are allowed after final submit.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Generate or use existing One Time Registration (OTR).",
+          "details": "OTR is Aadhaar/Aadhaar Enrolment ID based and is valid for the student's academic career."
+        },
+        {
+          "step": 2,
+          "action": "Login to NSP using OTR ID and password.",
+          "details": "Fresh and renewal applications are handled from the student login/dashboard."
+        },
+        {
+          "step": 3,
+          "action": "Check scholarship eligibility / select the applicable scheme.",
+          "details": "Choose the correct fresh or renewal application and scheme."
+        },
+        {
+          "step": 4,
+          "action": "Complete the scholarship application form.",
+          "details": "Enter personal, academic, domicile/category/income/bank and scheme-specific information."
+        },
+        {
+          "step": 5,
+          "action": "Upload or provide required scheme documents/details.",
+          "details": "Upload/enter the documents and evidence requested for that scholarship."
+        },
+        {
+          "step": 6,
+          "action": "Review the application carefully.",
+          "details": "Check scheme, profile, bank and document information before final submission."
+        },
+        {
+          "step": 7,
+          "action": "Final-submit the application.",
+          "details": "Submission sends the application into the NSP verification workflow."
+        },
+        {
+          "step": 8,
+          "action": "Application is verified by the institution and designated authorities.",
+          "details": "Institute and higher-level verification deadlines/statuses are separate from student submission."
+        },
+        {
+          "step": 9,
+          "action": "Track application status from NSP.",
+          "details": "Use the student login/dashboard to check application progress."
+        },
+        {
+          "step": 10,
+          "action": "Track scholarship payment where applicable.",
+          "details": "NSP links students to PFMS/payment tracking for disbursement status."
+        }
+      ],
+      "verification_stages": [
+        "Student final submission",
+        "Institute verification",
+        "Department/State/Ministry or L2 verification",
+        "Sanction/selection where applicable",
+        "DBT/payment processing"
+      ],
+      "tracking_method": "NSP student dashboard; PFMS for payment tracking where applicable",
+      "renewal_process": "Login with OTR → select Renewal → update/confirm current-year information → upload required renewal documents → final submit.",
+      "source_url": "https://scholarships.gov.in/fresh1819/Students",
+      "source_type": "official_nsp",
+      "verification_status": "verified_current",
+      "notes": "Standard NSP 2026-27 student workflow."
+    },
+    {
+      "scholarship_id": "GOV10",
+      "scholarship_name": "Financial Assistance for Education to Wards of Beedi/Cine/IOMC/LSDM Workers - Post Matric",
+      "academic_year": "2026-27",
+      "application_portal": "National Scholarship Portal",
+      "application_url": "https://scholarships.gov.in/",
+      "registration_required": true,
+      "registration_method": "NSP One Time Registration (OTR) using Aadhaar/Aadhaar Enrolment ID",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Scheme/portal dependent; do not assume edits are allowed after final submit.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Generate or use existing One Time Registration (OTR).",
+          "details": "OTR is Aadhaar/Aadhaar Enrolment ID based and is valid for the student's academic career."
+        },
+        {
+          "step": 2,
+          "action": "Login to NSP using OTR ID and password.",
+          "details": "Fresh and renewal applications are handled from the student login/dashboard."
+        },
+        {
+          "step": 3,
+          "action": "Check scholarship eligibility / select the applicable scheme.",
+          "details": "Choose the correct fresh or renewal application and scheme."
+        },
+        {
+          "step": 4,
+          "action": "Complete the scholarship application form.",
+          "details": "Enter personal, academic, domicile/category/income/bank and scheme-specific information."
+        },
+        {
+          "step": 5,
+          "action": "Upload or provide required scheme documents/details.",
+          "details": "Upload/enter the documents and evidence requested for that scholarship."
+        },
+        {
+          "step": 6,
+          "action": "Review the application carefully.",
+          "details": "Check scheme, profile, bank and document information before final submission."
+        },
+        {
+          "step": 7,
+          "action": "Final-submit the application.",
+          "details": "Submission sends the application into the NSP verification workflow."
+        },
+        {
+          "step": 8,
+          "action": "Application is verified by the institution and designated authorities.",
+          "details": "Institute and higher-level verification deadlines/statuses are separate from student submission."
+        },
+        {
+          "step": 9,
+          "action": "Track application status from NSP.",
+          "details": "Use the student login/dashboard to check application progress."
+        },
+        {
+          "step": 10,
+          "action": "Track scholarship payment where applicable.",
+          "details": "NSP links students to PFMS/payment tracking for disbursement status."
+        }
+      ],
+      "verification_stages": [
+        "Student final submission",
+        "Institute verification",
+        "Department/State/Ministry or L2 verification",
+        "Sanction/selection where applicable",
+        "DBT/payment processing"
+      ],
+      "tracking_method": "NSP student dashboard; PFMS for payment tracking where applicable",
+      "renewal_process": "Login with OTR → select Renewal → update/confirm current-year information → upload required renewal documents → final submit.",
+      "source_url": "https://scholarships.gov.in/fresh1819/Students",
+      "source_type": "official_nsp",
+      "verification_status": "verified_current",
+      "notes": "Standard NSP 2026-27 student workflow."
+    },
+    {
+      "scholarship_id": "PVT02",
+      "scholarship_name": "HDFC Bank Parivartan ECSS Programme 2026-27",
+      "academic_year": "2026-27",
+      "application_portal": "Buddy4Study / Parivartan ECSS",
+      "application_url": "https://www.parivartanecss.com/",
+      "registration_required": true,
+      "registration_method": "Buddy4Study account",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Not verified; review carefully before submission.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Open the Parivartan ECSS application page and click Apply Now.",
+          "details": "The programme redirects applicants to Buddy4Study."
+        },
+        {
+          "step": 2,
+          "action": "Login to Buddy4Study or register.",
+          "details": "New users can register using email/mobile/Gmail as supported."
+        },
+        {
+          "step": 3,
+          "action": "Open the Parivartan ECSS Scholarship Programme 2026-27 application form.",
+          "details": "Use the Start Application button."
+        },
+        {
+          "step": 4,
+          "action": "Fill in the required online application details.",
+          "details": "Complete education, income, identity and other programme fields."
+        },
+        {
+          "step": 5,
+          "action": "Upload relevant documents.",
+          "details": "Upload academic, admission, bank, income and crisis evidence where applicable."
+        },
+        {
+          "step": 6,
+          "action": "Accept Terms and Conditions and Preview.",
+          "details": "Review entered information and uploaded files."
+        },
+        {
+          "step": 7,
+          "action": "Submit the application.",
+          "details": "Submit only after verifying the preview."
+        },
+        {
+          "step": 8,
+          "action": "Await scholarship screening/verification.",
+          "details": "Selection/award is separate from meeting eligibility criteria."
+        }
+      ],
+      "verification_stages": [
+        "Application submission",
+        "Programme screening/verification",
+        "Selection decision",
+        "Award/disbursement"
+      ],
+      "tracking_method": "Buddy4Study/programme account and programme communications",
+      "renewal_process": "Programme/cycle dependent; verify current renewal terms.",
+      "source_url": "https://www.parivartanecss.com/index.html",
+      "source_type": "current_program_site",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "scholarship_id": "PVT03",
+      "scholarship_name": "Reliance Foundation Undergraduate Scholarships 2026-27",
+      "academic_year": "2026-27",
+      "application_portal": "Reliance Foundation Scholarships Portal",
+      "application_url": "https://scholarships.reliancefoundation.org/UG_Scholarship",
+      "registration_required": true,
+      "registration_method": "Official Reliance Foundation applicant account",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Not verified; follow current portal instructions.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Open the Reliance Foundation scholarship portal.",
+          "details": "Choose the applicable Undergraduate or Postgraduate scholarship."
+        },
+        {
+          "step": 2,
+          "action": "Register/create an applicant account or login.",
+          "details": "Use the official scholarship portal for the current cycle."
+        },
+        {
+          "step": 3,
+          "action": "Complete eligibility/profile details.",
+          "details": "Provide personal, academic and programme information."
+        },
+        {
+          "step": 4,
+          "action": "Complete the online application form.",
+          "details": "Fill all mandatory application sections."
+        },
+        {
+          "step": 5,
+          "action": "Upload required supporting documents.",
+          "details": "Use the current application checklist for the UG/PG programme."
+        },
+        {
+          "step": 6,
+          "action": "Complete required assessment components.",
+          "details": "UG applicants must complete the aptitude test; PG selection may include further assessment/interview."
+        },
+        {
+          "step": 7,
+          "action": "Submit the completed application.",
+          "details": "Review before final submission."
+        },
+        {
+          "step": 8,
+          "action": "Track selection communications.",
+          "details": "Eligibility does not mean award; Reliance Foundation performs a selection process."
+        }
+      ],
+      "verification_stages": [
+        "Application review",
+        "Mandatory aptitude test",
+        "Selection/shortlisting",
+        "Award"
+      ],
+      "tracking_method": "Reliance Foundation scholarship portal and registered contact details",
+      "renewal_process": "Continuing scholarship support is subject to programme terms and satisfactory continuation.",
+      "source_url": "https://scholarships.reliancefoundation.org/UG_Scholarship",
+      "source_type": "official_provider",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "scholarship_id": "PVT04",
+      "scholarship_name": "Reliance Foundation Postgraduate Scholarships 2026-27",
+      "academic_year": "2026-27",
+      "application_portal": "Reliance Foundation Scholarships Portal",
+      "application_url": "https://scholarships.reliancefoundation.org/",
+      "registration_required": true,
+      "registration_method": "Official Reliance Foundation applicant account",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Not verified; follow current portal instructions.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Open the official Reliance Foundation Scholarships portal.",
+          "details": "Choose the Postgraduate Scholarship."
+        },
+        {
+          "step": 2,
+          "action": "Register/login.",
+          "details": "Create or access your applicant account."
+        },
+        {
+          "step": 3,
+          "action": "Complete academic and programme details.",
+          "details": "Provide PG programme, UG record and GATE/CGPA pathway details."
+        },
+        {
+          "step": 4,
+          "action": "Upload required application materials.",
+          "details": "Include PG admission proof and the required statements/references and other evidence requested by the current portal."
+        },
+        {
+          "step": 5,
+          "action": "Submit the application.",
+          "details": "Review all data before submission."
+        },
+        {
+          "step": 6,
+          "action": "Participate in further evaluation if shortlisted.",
+          "details": "PG selection may include additional assessment/interview."
+        },
+        {
+          "step": 7,
+          "action": "Track selection/award communication.",
+          "details": "Selection is separate from basic eligibility."
+        }
+      ],
+      "verification_stages": [
+        "Application review",
+        "Shortlisting",
+        "Further evaluation/interview where applicable",
+        "Final selection"
+      ],
+      "tracking_method": "Official portal/email/mobile communications",
+      "renewal_process": "Programme-duration continuation subject to scholarship conditions.",
+      "source_url": "https://www.reliancefoundation.org/media/media-release/Reliance_Foundation_Scholarships_2026-27",
+      "source_type": "official_provider",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "scholarship_id": "PVT07",
+      "scholarship_name": "Bharti Airtel Scholarship 2026-27",
+      "academic_year": "2026-27",
+      "application_portal": "Bharti Airtel Foundation / Buddy4Study",
+      "application_url": "https://www.bhartiairtelfoundation.org/bharti-airtel-scholarship",
+      "registration_required": true,
+      "registration_method": "Buddy4Study account",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Not stated on the official page; review before submission.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Open the official Bharti Airtel Scholarship page.",
+          "details": "Click Show Interest."
+        },
+        {
+          "step": 2,
+          "action": "Register or login to Buddy4Study.",
+          "details": "Continue to the Bharti Airtel Scholarship 2026-27 interest form."
+        },
+        {
+          "step": 3,
+          "action": "Fill required details in the online interest form.",
+          "details": "Provide current academic/admission and applicant information."
+        },
+        {
+          "step": 4,
+          "action": "Upload relevant documents.",
+          "details": "Upload identity, admission, academic, financial, bank and other requested evidence."
+        },
+        {
+          "step": 5,
+          "action": "Review the form.",
+          "details": "Check all entered information carefully."
+        },
+        {
+          "step": 6,
+          "action": "Submit the interest form.",
+          "details": "Submission begins programme review/selection."
+        },
+        {
+          "step": 7,
+          "action": "Participate in subsequent selection stages if contacted.",
+          "details": "The programme may perform additional review before final award."
+        }
+      ],
+      "verification_stages": [
+        "Interest form submission",
+        "Document/application review",
+        "Selection process",
+        "Award"
+      ],
+      "tracking_method": "Buddy4Study / Bharti Airtel Foundation communications",
+      "renewal_process": "Annual continuation subject to programme terms.",
+      "source_url": "https://www.bhartiairtelfoundation.org/bharti-airtel-scholarship",
+      "source_type": "official_provider",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "scholarship_id": "PVT08",
+      "scholarship_name": "LIC Golden Jubilee Scholarship Scheme 2026",
+      "academic_year": "2026-27",
+      "application_portal": "LIC Golden Jubilee Foundation",
+      "application_url": "https://www.licindia.in/en/web/guest/golden-jubilee-foundation",
+      "registration_required": true,
+      "registration_method": "LIC online scholarship application",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Not verified in current public instructions.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Open LIC Golden Jubilee Foundation scholarship page.",
+          "details": "Use the official 'Apply Here for Scholarship Scheme 2026' link."
+        },
+        {
+          "step": 2,
+          "action": "Complete the online scholarship application.",
+          "details": "Enter the required personal, academic, income and admission information."
+        },
+        {
+          "step": 3,
+          "action": "Submit the application online.",
+          "details": "The relevant LIC Divisional Office receives/processes the application."
+        },
+        {
+          "step": 4,
+          "action": "Preliminary assessment by LIC Divisional Office.",
+          "details": "Applications are first processed at the preliminary stage."
+        },
+        {
+          "step": 5,
+          "action": "If shortlisted, provide requested supporting documents.",
+          "details": "LIC contacts applicants who pass preliminary assessment."
+        },
+        {
+          "step": 6,
+          "action": "Submit documents within the specified time.",
+          "details": "Failure to provide them in time means the application will not proceed to final evaluation."
+        },
+        {
+          "step": 7,
+          "action": "Final evaluation by Divisional Office.",
+          "details": "Final award selection follows the documented scheme process."
+        }
+      ],
+      "verification_stages": [
+        "Online application",
+        "Preliminary assessment",
+        "Document submission by shortlisted applicants",
+        "Final evaluation",
+        "Selection"
+      ],
+      "tracking_method": "LIC Divisional Office / registered contact details",
+      "renewal_process": "Renewal/continuation subject to academic conditions in the 2026 scheme guidelines.",
+      "source_url": "https://www.licindia.in/en/web/guest/golden-jubilee-foundation",
+      "source_type": "official_provider",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "scholarship_id": "PVT10",
+      "scholarship_name": "Santoor Women's Scholarship Programme 2026-27",
+      "academic_year": "2026-27",
+      "application_portal": "Santoor Scholarships",
+      "application_url": "https://santoorscholarships.com/",
+      "registration_required": true,
+      "registration_method": "Official programme application flow",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Not verified.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Open the official Santoor scholarship site.",
+          "details": "Access the current 2026-27 application."
+        },
+        {
+          "step": 2,
+          "action": "Register/login if prompted by the application portal.",
+          "details": "Use applicant contact details for the scholarship application."
+        },
+        {
+          "step": 3,
+          "action": "Complete personal, school and undergraduate admission details.",
+          "details": "The programme checks government-school background and current UG admission."
+        },
+        {
+          "step": 4,
+          "action": "Upload requested documents.",
+          "details": "Provide identity, bank, Class 10/12 and other current application evidence."
+        },
+        {
+          "step": 5,
+          "action": "Review and submit.",
+          "details": "Submit before the current programme deadline."
+        },
+        {
+          "step": 6,
+          "action": "Await programme review/selection.",
+          "details": "Meeting eligibility does not guarantee selection."
+        }
+      ],
+      "verification_stages": [
+        "Application submission",
+        "Programme review",
+        "Selection",
+        "Award"
+      ],
+      "tracking_method": "Official programme communications",
+      "renewal_process": "Annual support continuation subject to programme rules.",
+      "source_url": "https://santoorscholarships.com/",
+      "source_type": "official_program_site",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "scholarship_id": "PVT01",
+      "scholarship_name": "Tata Capital Pankh Scholarship Programme 2026-27",
+      "academic_year": "2026-27",
+      "application_portal": "Tata Capital / programme partner",
+      "application_url": "https://www.tatacapital.com/sustainability/education.html",
+      "registration_required": true,
+      "registration_method": "Authorized scholarship application platform",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Not verified.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Open the current Tata Capital Pankh application listing.",
+          "details": "Applications generally open from September; use the current cycle's official/authorized application link."
+        },
+        {
+          "step": 2,
+          "action": "Register/login on the authorized application platform.",
+          "details": "Current programme application has historically been handled through a scholarship partner."
+        },
+        {
+          "step": 3,
+          "action": "Complete the online form and upload required documents.",
+          "details": "Provide academic, income, admission, fee, identity and bank evidence as requested."
+        },
+        {
+          "step": 4,
+          "action": "Review and submit.",
+          "details": "Verify all data before final submission."
+        },
+        {
+          "step": 5,
+          "action": "Await screening/selection.",
+          "details": "Award selection is separate from eligibility."
+        }
+      ],
+      "verification_stages": [
+        "Application",
+        "Screening",
+        "Selection",
+        "Award"
+      ],
+      "tracking_method": "Application partner/programme communications",
+      "renewal_process": "Cycle dependent.",
+      "source_url": "https://www.tatacapital.com/sustainability/education.html",
+      "source_type": "official_provider_plus_partner_process",
+      "verification_status": "partial_current_process",
+      "notes": "Official Tata page confirms programme but does not expose the full current application workflow."
+    },
+    {
+      "scholarship_id": "PVT05",
+      "scholarship_name": "Kotak Kanya Scholarship 2026-27",
+      "academic_year": "2026-27",
+      "application_portal": "Kotak Education Foundation / authorized scholarship partner",
+      "application_url": null,
+      "registration_required": true,
+      "registration_method": "Authorized application partner account",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Not verified.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Open the current Kotak Kanya application page.",
+          "details": "Use only the current provider/authorized-partner link."
+        },
+        {
+          "step": 2,
+          "action": "Register/login on the application platform.",
+          "details": "Create/access applicant account."
+        },
+        {
+          "step": 3,
+          "action": "Fill the online scholarship form.",
+          "details": "Enter academic, income, course and admission details."
+        },
+        {
+          "step": 4,
+          "action": "Upload required documents.",
+          "details": "Upload marksheet, income, admission, fee, identity, bank and conditional evidence."
+        },
+        {
+          "step": 5,
+          "action": "Review and submit.",
+          "details": "Confirm details before final submission."
+        },
+        {
+          "step": 6,
+          "action": "Await screening/selection.",
+          "details": "Eligibility is not final award selection."
+        }
+      ],
+      "verification_stages": [
+        "Application",
+        "Screening",
+        "Selection"
+      ],
+      "tracking_method": "Application platform / provider communications",
+      "renewal_process": "Subject to annual programme terms.",
+      "source_url": "https://kotakeducation.org/",
+      "source_type": "official_provider_identity_process_unverified",
+      "verification_status": "requires_current_official_process_capture",
+      "notes": "Exact 2026-27 official application process was not found on the provider site."
+    },
+    {
+      "scholarship_id": "PVT06",
+      "scholarship_name": "Panasonic Ratti Chhatr Scholarship",
+      "academic_year": "2026-27",
+      "application_portal": "Panasonic / Buddy4Study partner",
+      "application_url": null,
+      "registration_required": true,
+      "registration_method": "Buddy4Study / programme application",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Not verified.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Open the current Ratti Chhatr application when registrations are announced.",
+          "details": "Panasonic runs the programme with Buddy4Study."
+        },
+        {
+          "step": 2,
+          "action": "Register and submit the scholarship application.",
+          "details": "Provide first-year IIT engineering and financial-background information."
+        },
+        {
+          "step": 3,
+          "action": "Upload supporting documents.",
+          "details": "Upload current application evidence."
+        },
+        {
+          "step": 4,
+          "action": "Undergo screening.",
+          "details": "Applications are screened for eligibility and fit."
+        },
+        {
+          "step": 5,
+          "action": "Take the online test if shortlisted.",
+          "details": "Panasonic has used an online test in recent editions."
+        },
+        {
+          "step": 6,
+          "action": "Attend interview if shortlisted.",
+          "details": "Finalists may be interviewed."
+        },
+        {
+          "step": 7,
+          "action": "Final selection and award.",
+          "details": "Scholarship recipients are chosen after the selection process."
+        }
+      ],
+      "verification_stages": [
+        "Application",
+        "Screening",
+        "Online test",
+        "Interview",
+        "Final selection"
+      ],
+      "tracking_method": "Programme partner and Panasonic communications",
+      "renewal_process": "Multi-year support subject to programme conditions.",
+      "source_url": "https://www.panasonic.com/in/corporate/news/articles/panasonic-life-solutions-india-marks-10-years-of-ratti-chhatr-scholarship-program.html",
+      "source_type": "official_provider_recent_process_reference",
+      "verification_status": "program_process_verified_recent_not_2026_cycle",
+      "notes": "2025 official Panasonic release confirms screening, online test and interview; exact 2026 application portal was not found."
+    },
+    {
+      "scholarship_id": "PVT09",
+      "scholarship_name": "L&T Build India Scholarship 2026",
+      "academic_year": "2026-27",
+      "application_portal": "Larsen & Toubro Build India Scholarship",
+      "application_url": null,
+      "registration_required": true,
+      "registration_method": "L&T scholarship/intake application portal",
+      "login_required": true,
+      "documents_upload_required": true,
+      "final_submit_required": true,
+      "correction_after_final_submit": "Not verified.",
+      "process_steps": [
+        {
+          "step": 1,
+          "action": "Open the current Build India Scholarship intake/application page.",
+          "details": "Use the current L&T intake notice/application link."
+        },
+        {
+          "step": 2,
+          "action": "Register and complete the online application.",
+          "details": "Provide engineering branch, academic record and personal information."
+        },
+        {
+          "step": 3,
+          "action": "Upload/submit required academic and identity information.",
+          "details": "Current intake documents should be taken from the live L&T application."
+        },
+        {
+          "step": 4,
+          "action": "Participate in L&T selection stages.",
+          "details": "The scholarship is linked to a sponsored M.Tech and selection process."
+        },
+        {
+          "step": 5,
+          "action": "Complete admission/undertaking formalities if selected.",
+          "details": "Selected candidates proceed to the sponsored academic pathway and related commitments."
+        }
+      ],
+      "verification_stages": [
+        "Application",
+        "Shortlisting",
+        "Selection assessment/interview as notified",
+        "Final selection/admission"
+      ],
+      "tracking_method": "L&T recruitment/scholarship communications",
+      "renewal_process": "Not a conventional annual renewal; tied to sponsored M.Tech programme.",
+      "source_url": "https://investors.larsentoubro.com/pdf/2026/Integrated%20Report%202025-26.pdf",
+      "source_type": "official_program_confirmation_process_partially_verified",
+      "verification_status": "requires_current_intake_process_capture",
+      "notes": "Official report confirms programme; exact 2026 application UI/process needs current intake page."
+    }
+  ]
+}

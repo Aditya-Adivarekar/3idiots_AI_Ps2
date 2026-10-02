@@ -1,0 +1,908 @@
+{
+  "metadata": {
+    "dataset_name": "Scholarship Master Dataset",
+    "dataset_number": 1,
+    "version": "1.0",
+    "academic_year_focus": "2026-27",
+    "generated_on": "2026-10-01",
+    "record_count": 20,
+    "government_count": 10,
+    "private_or_foundation_count": 10,
+    "purpose": "Canonical master table. Detailed eligibility rules, documents, citations, edge cases, and training examples belong in linked datasets.",
+    "null_policy": "null means not verified/not available; never infer.",
+    "status_note": "Application status is independent of eligibility."
+  },
+  "scholarships": [
+    {
+      "scholarship_id": "GOV01",
+      "scholarship_name": "PM-USP Central Sector Scheme of Scholarship for College and University Students (CSSS)",
+      "official_name": "PM-USP – Central Sector Scheme Of Scholarship For College And University Students (CSSS)",
+      "provider": "Department of Higher Education, Ministry of Education",
+      "provider_type": "Government",
+      "government_or_private": "Government",
+      "ministry_or_company": "Ministry of Education",
+      "scheme_type": "Merit Based",
+      "description": "Central scholarship for college and university students; the current NSP 2026-27 announcement/listing is for renewal applications.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Undergraduate",
+        "Postgraduate / professional courses as per scheme rules"
+      ],
+      "course_types": [
+        "Higher education courses covered by the scheme"
+      ],
+      "target_group": [
+        "College and university students meeting CSSS rules"
+      ],
+      "benefit_amount": null,
+      "benefit_currency": "INR",
+      "benefit_frequency": null,
+      "benefit_description": "Refer to current CSSS specification/guidelines; not duplicated in master until clause-level extraction is completed.",
+      "application_start": "2026-06-01",
+      "application_deadline": "2026-10-31",
+      "renewal_available": true,
+      "fresh_application": false,
+      "application_status": "OPEN_RENEWAL",
+      "application_url": "https://scholarships.gov.in/",
+      "official_website": "https://scholarships.gov.in/",
+      "official_guidelines_url": "https://scholarships.gov.in/public/schemeGuidelines/centralsOrsponsoredOrstate",
+      "official_faq_url": "https://scholarships.gov.in/All-Scholarships",
+      "primary_source_url": "https://scholarships.gov.in/fresh1819/Students",
+      "source_type": "official",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "NSP announcement says renewal applications are open for AY 2026-27 and close 31-10-2026."
+    },
+    {
+      "scholarship_id": "GOV02",
+      "scholarship_name": "AICTE Pragati Scholarship Scheme for Girl Students (Technical Degree)",
+      "official_name": "AICTE - Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+      "provider": "AICTE",
+      "provider_type": "Government",
+      "government_or_private": "Government",
+      "ministry_or_company": "All India Council for Technical Education",
+      "scheme_type": "Merit Based",
+      "description": "Scholarship for girl students pursuing eligible AICTE-approved technical degree programmes.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Undergraduate"
+      ],
+      "course_types": [
+        "Technical Degree"
+      ],
+      "target_group": [
+        "Girl students in eligible AICTE technical degree programmes"
+      ],
+      "benefit_amount": 50000,
+      "benefit_currency": "INR",
+      "benefit_frequency": "per year",
+      "benefit_description": "INR 50,000 per year under the current scheme guidance referenced in the project dataset.",
+      "application_start": "2026-06-01",
+      "application_deadline": "2026-10-31",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://scholarships.gov.in/",
+      "official_website": "https://www.aicte-india.org/",
+      "official_guidelines_url": "https://scholarships.gov.in/public/schemeGuidelines/centralsOrsponsoredOrstate",
+      "official_faq_url": "https://scholarships.gov.in/All-Scholarships",
+      "primary_source_url": "https://scholarships.gov.in/All-Scholarships",
+      "source_type": "official",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "NSP directly lists the 2026-27 scheme and application dates."
+    },
+    {
+      "scholarship_id": "GOV03",
+      "scholarship_name": "AICTE Saksham Scholarship Scheme for Specially Abled Students (Technical Degree)",
+      "official_name": "AICTE - Saksham Scholarship Scheme For Specially Abled Student (Technical Degree)",
+      "provider": "AICTE",
+      "provider_type": "Government",
+      "government_or_private": "Government",
+      "ministry_or_company": "All India Council for Technical Education",
+      "scheme_type": "Welfare Based",
+      "description": "Scholarship for eligible specially-abled students pursuing AICTE-approved technical degree programmes.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Undergraduate"
+      ],
+      "course_types": [
+        "Technical Degree"
+      ],
+      "target_group": [
+        "Students with benchmark disabilities in eligible technical degree programmes"
+      ],
+      "benefit_amount": 50000,
+      "benefit_currency": "INR",
+      "benefit_frequency": "per year",
+      "benefit_description": "INR 50,000 per year under current scheme guidance referenced in the project dataset.",
+      "application_start": "2026-06-01",
+      "application_deadline": "2026-10-31",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://scholarships.gov.in/",
+      "official_website": "https://www.aicte-india.org/",
+      "official_guidelines_url": "https://scholarships.gov.in/public/schemeGuidelines/centralsOrsponsoredOrstate",
+      "official_faq_url": "https://scholarships.gov.in/All-Scholarships",
+      "primary_source_url": "https://scholarships.gov.in/All-Scholarships",
+      "source_type": "official",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "NSP directly lists the 2026-27 technical degree scheme and dates."
+    },
+    {
+      "scholarship_id": "GOV04",
+      "scholarship_name": "AICTE Swanath Scholarship Scheme (Technical Degree)",
+      "official_name": "AICTE - Swanath Scholarship Scheme (Technical Degree)",
+      "provider": "AICTE",
+      "provider_type": "Government",
+      "government_or_private": "Government",
+      "ministry_or_company": "All India Council for Technical Education",
+      "scheme_type": "Welfare Based",
+      "description": "Technical education scholarship for eligible orphan/COVID-affected/ward-of-martyr categories under current Swanath rules.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Undergraduate"
+      ],
+      "course_types": [
+        "Technical Degree"
+      ],
+      "target_group": [
+        "Eligible Swanath special categories pursuing technical degree programmes"
+      ],
+      "benefit_amount": 50000,
+      "benefit_currency": "INR",
+      "benefit_frequency": "per year",
+      "benefit_description": "INR 50,000 per year under current Swanath guidance referenced in the project dataset.",
+      "application_start": "2026-06-01",
+      "application_deadline": "2026-10-31",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://scholarships.gov.in/",
+      "official_website": "https://www.aicte-india.org/",
+      "official_guidelines_url": "https://scholarships.gov.in/public/schemeGuidelines/centralsOrsponsoredOrstate",
+      "official_faq_url": "https://scholarships.gov.in/All-Scholarships",
+      "primary_source_url": "https://scholarships.gov.in/All-Scholarships",
+      "source_type": "official",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "NSP lists Swanath for AY 2026-27; detailed category clauses belong in Dataset 2."
+    },
+    {
+      "scholarship_id": "GOV05",
+      "scholarship_name": "PM YASASVI Central Sector Scheme of Top Class Education in College for OBC, EBC and DNT Students",
+      "official_name": "PM YASASVI Central Sector Scheme of Top Class Education in College for OBC, EBC and DNT Students",
+      "provider": "Department of Social Justice and Empowerment",
+      "provider_type": "Government",
+      "government_or_private": "Government",
+      "ministry_or_company": "Ministry of Social Justice and Empowerment",
+      "scheme_type": "Merit Based / Top Class Education",
+      "description": "Higher-education scholarship for eligible OBC, EBC and DNT students in notified institutions.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Undergraduate",
+        "Other higher education as notified"
+      ],
+      "course_types": [
+        "Full-time regular courses in notified institutions"
+      ],
+      "target_group": [
+        "OBC",
+        "EBC",
+        "DNT"
+      ],
+      "benefit_amount": null,
+      "benefit_currency": "INR",
+      "benefit_frequency": "varies",
+      "benefit_description": "Tuition and other components subject to scheme ceilings; detailed benefit rules to be stored in Dataset 2/benefit dataset.",
+      "application_start": "2026-06-01",
+      "application_deadline": "2026-10-31",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://scholarships.gov.in/",
+      "official_website": "https://socialjustice.gov.in/",
+      "official_guidelines_url": "https://scholarships.gov.in/public/schemeGuidelines/centralsOrsponsoredOrstate",
+      "official_faq_url": "https://scholarships.gov.in/All-Scholarships",
+      "primary_source_url": "https://scholarships.gov.in/All-Scholarships",
+      "source_type": "official_portal_plus_current_institutional",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current_listing",
+      "notes": "Current-year institutional notices and NSP used; detailed specifications still to be clause-extracted."
+    },
+    {
+      "scholarship_id": "GOV06",
+      "scholarship_name": "Central Sector Scholarship of Top Class Education for SC Students",
+      "official_name": "Central Sector Scholarship Of Top Class Education For SC Students",
+      "provider": "Department of Social Justice and Empowerment",
+      "provider_type": "Government",
+      "government_or_private": "Government",
+      "ministry_or_company": "Ministry of Social Justice and Empowerment",
+      "scheme_type": "Merit Based / Top Class Education",
+      "description": "Top-class higher-education scholarship for eligible Scheduled Caste students studying in notified institutions.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Higher Education"
+      ],
+      "course_types": [
+        "Courses in notified institutions"
+      ],
+      "target_group": [
+        "Scheduled Caste students"
+      ],
+      "benefit_amount": null,
+      "benefit_currency": "INR",
+      "benefit_frequency": "varies",
+      "benefit_description": "Benefits are defined by current scheme guidelines and institution type.",
+      "application_start": "2026-06-01",
+      "application_deadline": "2026-10-31",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://scholarships.gov.in/",
+      "official_website": "https://socialjustice.gov.in/",
+      "official_guidelines_url": "https://scholarships.gov.in/public/schemeGuidelines/centralsOrsponsoredOrstate",
+      "official_faq_url": "https://scholarships.gov.in/All-Scholarships",
+      "primary_source_url": "https://scholarships.gov.in/fresh1819/All-Scholarships",
+      "source_type": "official",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "NSP directly lists this scheme with 2026-27 dates."
+    },
+    {
+      "scholarship_id": "GOV07",
+      "scholarship_name": "Post-Matric Scholarship for Students with Disabilities",
+      "official_name": "Post Matric Scholarship For Students With Disabilities",
+      "provider": "Department of Empowerment of Persons with Disabilities",
+      "provider_type": "Government",
+      "government_or_private": "Government",
+      "ministry_or_company": "Ministry of Social Justice and Empowerment",
+      "scheme_type": "Welfare Based / Post-Matric",
+      "description": "Post-matric scholarship for eligible students with benchmark disabilities.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Class XI and above",
+        "Diploma",
+        "Undergraduate",
+        "Postgraduate"
+      ],
+      "course_types": [
+        "Post-matric courses covered by scheme"
+      ],
+      "target_group": [
+        "Students with benchmark disabilities"
+      ],
+      "benefit_amount": null,
+      "benefit_currency": "INR",
+      "benefit_frequency": "varies",
+      "benefit_description": "Allowance/reimbursement structure varies by course group and current guidelines.",
+      "application_start": "2026-07-25",
+      "application_deadline": "2026-10-31",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://scholarships.gov.in/",
+      "official_website": "https://depwd.gov.in/",
+      "official_guidelines_url": "https://scholarships.gov.in/public/schemeGuidelines/centralsOrsponsoredOrstate",
+      "official_faq_url": "https://scholarships.gov.in/All-Scholarships",
+      "primary_source_url": "https://scholarships.gov.in/fresh1819/All-Scholarships",
+      "source_type": "official",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current_listing",
+      "notes": "NSP has current disability-scheme listing and requires UDID consent for disabled applicants."
+    },
+    {
+      "scholarship_id": "GOV08",
+      "scholarship_name": "Scholarship for Top Class Education for Students with Disabilities",
+      "official_name": "Scholarship For Top Class Education For Students With Disabilities",
+      "provider": "Department of Empowerment of Persons with Disabilities",
+      "provider_type": "Government",
+      "government_or_private": "Government",
+      "ministry_or_company": "Ministry of Social Justice and Empowerment",
+      "scheme_type": "Welfare Based / Top Class Education",
+      "description": "Top-class higher-education support for eligible students with benchmark disabilities in notified institutions.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Higher Education"
+      ],
+      "course_types": [
+        "Courses in notified top-class institutions"
+      ],
+      "target_group": [
+        "Students with benchmark disabilities"
+      ],
+      "benefit_amount": null,
+      "benefit_currency": "INR",
+      "benefit_frequency": "varies",
+      "benefit_description": "Current scheme includes higher-education support; detailed components to be clause-extracted from official guidelines.",
+      "application_start": null,
+      "application_deadline": "2026-10-31",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN_OR_CURRENT",
+      "application_url": "https://scholarships.gov.in/",
+      "official_website": "https://depwd.gov.in/",
+      "official_guidelines_url": "https://scholarships.gov.in/public/schemeGuidelines/centralsOrsponsoredOrstate",
+      "official_faq_url": "https://scholarships.gov.in/All-Scholarships",
+      "primary_source_url": "https://scholarships.gov.in/fresh1819/All-Scholarships",
+      "source_type": "official_listing",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "partially_verified_current",
+      "notes": "Exact opening date and benefit components should be pulled from the scheme specification before production."
+    },
+    {
+      "scholarship_id": "GOV09",
+      "scholarship_name": "National Scholarship for Post Graduate Studies",
+      "official_name": "National Scholarship for Post Graduate Studies",
+      "provider": "University Grants Commission (UGC)",
+      "provider_type": "Government",
+      "government_or_private": "Government",
+      "ministry_or_company": "UGC / Ministry of Education",
+      "scheme_type": "Merit Based / Postgraduate",
+      "description": "National scholarship supporting eligible students enrolled in postgraduate programmes.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Postgraduate"
+      ],
+      "course_types": [
+        "Eligible PG courses under current UGC rules"
+      ],
+      "target_group": [
+        "Eligible postgraduate students"
+      ],
+      "benefit_amount": null,
+      "benefit_currency": "INR",
+      "benefit_frequency": "varies",
+      "benefit_description": "Current benefit amount to be extracted from official scheme specification.",
+      "application_start": null,
+      "application_deadline": null,
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "CURRENTNESS_REQUIRES_SCHEME_SPEC_CHECK",
+      "application_url": "https://scholarships.gov.in/",
+      "official_website": "https://www.ugc.gov.in/",
+      "official_guidelines_url": "https://scholarships.gov.in/public/schemeGuidelines/centralsOrsponsoredOrstate",
+      "official_faq_url": "https://scholarships.gov.in/All-Scholarships",
+      "primary_source_url": "https://scholarships.gov.in/All-Scholarships",
+      "source_type": "official_portal",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "partial_current",
+      "notes": "Keep master record but do not use deadline/benefit until current scheme specification is extracted."
+    },
+    {
+      "scholarship_id": "GOV10",
+      "scholarship_name": "Financial Assistance for Education to the Wards of Beedi/Cine/IOMC/LSDM Workers - Post Matric",
+      "official_name": "Financial Assistance For Education To The Wards Of Beedi/Cine/IOMC/LSDM Workers - Post Matric",
+      "provider": "Ministry of Labour and Employment",
+      "provider_type": "Government",
+      "government_or_private": "Government",
+      "ministry_or_company": "Ministry of Labour and Employment",
+      "scheme_type": "Welfare Based / Post-Matric",
+      "description": "Education assistance for wards of eligible Beedi, Cine, Iron Ore/Manganese/Chrome Ore Mines and Limestone/Dolomite Mines workers.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Post-Matric"
+      ],
+      "course_types": [
+        "Class XI onward and eligible higher courses"
+      ],
+      "target_group": [
+        "Wards of specified worker categories"
+      ],
+      "benefit_amount": null,
+      "benefit_currency": "INR",
+      "benefit_frequency": "per year",
+      "benefit_description": "Benefit varies by education level/course.",
+      "application_start": "2026-06-01",
+      "application_deadline": "2026-10-31",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://scholarships.gov.in/",
+      "official_website": "https://labour.gov.in/",
+      "official_guidelines_url": "https://scholarships.gov.in/public/schemeGuidelines/centralsOrsponsoredOrstate",
+      "official_faq_url": "https://scholarships.gov.in/All-Scholarships",
+      "primary_source_url": "https://scholarships.gov.in/All-Scholarships",
+      "source_type": "official_portal_plus_current_secondary",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current_listing",
+      "notes": "Detailed benefit amounts and worker-document rules belong in later datasets."
+    },
+    {
+      "scholarship_id": "PVT01",
+      "scholarship_name": "Tata Capital Pankh Scholarship Programme 2026-27",
+      "official_name": "Tata Capital Pankh Scholarship Programme",
+      "provider": "Tata Capital Limited",
+      "provider_type": "Private / CSR",
+      "government_or_private": "Private",
+      "ministry_or_company": "Tata Capital Limited",
+      "scheme_type": "Merit-cum-Means / CSR",
+      "description": "CSR scholarship supporting meritorious students from economically weaker backgrounds across school, UG, diploma/polytechnic and ITI categories.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Class XI",
+        "Class XII",
+        "Undergraduate",
+        "Diploma",
+        "Polytechnic",
+        "ITI"
+      ],
+      "course_types": [
+        "General and eligible vocational/technical courses"
+      ],
+      "target_group": [
+        "Meritorious students from economically weaker backgrounds"
+      ],
+      "benefit_amount": 18000,
+      "benefit_currency": "INR",
+      "benefit_frequency": "up to / category-dependent",
+      "benefit_description": "Current partner listing shows awards up to INR 18,000 for standard categories; specialized-discipline variants may differ.",
+      "application_start": "2026-09-01",
+      "application_deadline": "2026-10-23",
+      "renewal_available": null,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://www.buddy4study.com/",
+      "official_website": "https://www.tatacapital.com/sustainability/education.html",
+      "official_guidelines_url": null,
+      "official_faq_url": null,
+      "primary_source_url": "https://www.tatacapital.com/sustainability/education.html",
+      "source_type": "official_provider_plus_authorized_partner",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_program_current_partner",
+      "notes": "Tata Capital confirms Pankh and annual September application opening; current 2026-27 deadline/award details sourced via programme partner listing."
+    },
+    {
+      "scholarship_id": "PVT02",
+      "scholarship_name": "HDFC Bank Parivartan ECSS Programme 2026-27",
+      "official_name": "Parivartan ECSS Programme 2026-27",
+      "provider": "HDFC Bank through CSR programme Parivartan",
+      "provider_type": "Private / CSR",
+      "government_or_private": "Private",
+      "ministry_or_company": "HDFC Bank",
+      "scheme_type": "Merit-cum-Need / CSR",
+      "description": "Scholarship for school, diploma/ITI/polytechnic, UG and PG students with limited financial means, with preference for personal/family crisis cases.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Class I-XII",
+        "Diploma",
+        "ITI",
+        "Polytechnic",
+        "Undergraduate",
+        "Postgraduate"
+      ],
+      "course_types": [
+        "General and professional courses"
+      ],
+      "target_group": [
+        "Meritorious students with financial need"
+      ],
+      "benefit_amount": 75000,
+      "benefit_currency": "INR",
+      "benefit_frequency": "up to, category-dependent",
+      "benefit_description": "Financial assistance up to INR 75,000 depending on education category.",
+      "application_start": null,
+      "application_deadline": "2026-08-31",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "DEADLINE_PASSED_FOR_CURRENT_VISIBLE_CYCLE",
+      "application_url": "https://www.parivartanecss.com/",
+      "official_website": "https://www.parivartanecss.com/",
+      "official_guidelines_url": "https://www.parivartanecss.com/",
+      "official_faq_url": "https://www.parivartanecss.com/",
+      "primary_source_url": "https://www.parivartanecss.com/",
+      "source_type": "program_site",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current_program_site",
+      "notes": "Program site states 2026-27 and lists 31 August 2026 on the current school scholarship section; older FAQ text also remains on page, so cycle-specific dates must be checked per category."
+    },
+    {
+      "scholarship_id": "PVT03",
+      "scholarship_name": "Reliance Foundation Undergraduate Scholarships 2026-27",
+      "official_name": "Reliance Foundation Undergraduate Scholarships",
+      "provider": "Reliance Foundation",
+      "provider_type": "Private Foundation",
+      "government_or_private": "Private",
+      "ministry_or_company": "Reliance Foundation",
+      "scheme_type": "Merit-cum-Means",
+      "description": "Supports up to 5,000 first-year undergraduate students across India in any stream.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Undergraduate"
+      ],
+      "course_types": [
+        "Regular full-time degree in any stream"
+      ],
+      "target_group": [
+        "First-year UG students"
+      ],
+      "benefit_amount": 200000,
+      "benefit_currency": "INR",
+      "benefit_frequency": "up to over degree duration",
+      "benefit_description": "Up to INR 2 lakh over the duration of the undergraduate degree.",
+      "application_start": "2026-08-14",
+      "application_deadline": "2026-10-05",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://scholarships.reliancefoundation.org/",
+      "official_website": "https://scholarships.reliancefoundation.org/",
+      "official_guidelines_url": "https://scholarships.reliancefoundation.org/UG_Scholarship",
+      "official_faq_url": "https://scholarships.reliancefoundation.org/UG_Scholarship",
+      "primary_source_url": "https://www.reliancefoundation.org/media/media-release/Reliance_Foundation_Scholarships_2026-27",
+      "source_type": "official",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "Official Reliance Foundation pages confirm AY 2026-27 and current application cycle."
+    },
+    {
+      "scholarship_id": "PVT04",
+      "scholarship_name": "Reliance Foundation Postgraduate Scholarships 2026-27",
+      "official_name": "Reliance Foundation Postgraduate Scholarships",
+      "provider": "Reliance Foundation",
+      "provider_type": "Private Foundation",
+      "government_or_private": "Private",
+      "ministry_or_company": "Reliance Foundation",
+      "scheme_type": "Merit Based / Future-ready PG",
+      "description": "Supports up to 100 first-year postgraduate students in specified Engineering, Technology, Energy and Life Sciences fields.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Postgraduate"
+      ],
+      "course_types": [
+        "Specified future-ready PG programmes"
+      ],
+      "target_group": [
+        "First-year PG students in eligible disciplines"
+      ],
+      "benefit_amount": 600000,
+      "benefit_currency": "INR",
+      "benefit_frequency": "up to over degree duration",
+      "benefit_description": "Up to INR 6 lakh over the duration of the PG degree.",
+      "application_start": "2026-08-14",
+      "application_deadline": "2026-10-05",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://scholarships.reliancefoundation.org/",
+      "official_website": "https://scholarships.reliancefoundation.org/",
+      "official_guidelines_url": "https://scholarships.reliancefoundation.org/",
+      "official_faq_url": "https://scholarships.reliancefoundation.org/",
+      "primary_source_url": "https://www.reliancefoundation.org/media/media-release/Reliance_Foundation_Scholarships_2026-27",
+      "source_type": "official",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "Official Reliance Foundation announcement confirms 100 PG awards and up to INR 6 lakh."
+    },
+    {
+      "scholarship_id": "PVT05",
+      "scholarship_name": "Kotak Kanya Scholarship 2026-27",
+      "official_name": "Kotak Kanya Scholarship",
+      "provider": "Kotak Education Foundation / Kotak CSR partners",
+      "provider_type": "Private / CSR",
+      "government_or_private": "Private",
+      "ministry_or_company": "Kotak",
+      "scheme_type": "Merit-cum-Means / Women",
+      "description": "Scholarship supporting eligible female students entering selected professional undergraduate programmes.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Undergraduate"
+      ],
+      "course_types": [
+        "Selected professional degree programmes"
+      ],
+      "target_group": [
+        "Female first-year professional UG students"
+      ],
+      "benefit_amount": 150000,
+      "benefit_currency": "INR",
+      "benefit_frequency": "per year",
+      "benefit_description": "Up to INR 1.5 lakh per year under current programme listings.",
+      "application_start": null,
+      "application_deadline": "2026-10-15",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://www.buddy4study.com/",
+      "official_website": "https://kotakeducation.org/",
+      "official_guidelines_url": null,
+      "official_faq_url": null,
+      "primary_source_url": "https://kotakeducation.org/",
+      "source_type": "provider_plus_current_authorized_listing",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "partially_verified_current",
+      "notes": "Current-year deadline/benefit captured from scholarship programme listings; exact provider guideline URL should be added when published/indexed."
+    },
+    {
+      "scholarship_id": "PVT06",
+      "scholarship_name": "Panasonic Ratti Chhatr Scholarship Programme",
+      "official_name": "Panasonic Scholarship Asia - Ratti Chhatr",
+      "provider": "Panasonic Life Solutions India",
+      "provider_type": "Private / CSR",
+      "government_or_private": "Private",
+      "ministry_or_company": "Panasonic Life Solutions India",
+      "scheme_type": "Engineering / CSR",
+      "description": "Panasonic's scholarship programme supporting first-year engineering students from low-income families at IITs.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Undergraduate"
+      ],
+      "course_types": [
+        "B.E.",
+        "B.Tech"
+      ],
+      "target_group": [
+        "First-year IIT engineering students from low-income families"
+      ],
+      "benefit_amount": null,
+      "benefit_currency": "INR",
+      "benefit_frequency": "multi-year / tuition support",
+      "benefit_description": "Panasonic describes the programme as financial assistance toward IIT engineering education; exact 2026-27 award amount requires current application page verification.",
+      "application_start": null,
+      "application_deadline": null,
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "PROGRAM_ACTIVE_CURRENT_CYCLE_DATE_UNVERIFIED",
+      "application_url": "https://www.buddy4study.com/",
+      "official_website": "https://www.panasonic.com/in/corporate/panasonic-group-corporate-citizenship-activities.html",
+      "official_guidelines_url": null,
+      "official_faq_url": null,
+      "primary_source_url": "https://www.panasonic.com/in/corporate/panasonic-group-corporate-citizenship-activities.html",
+      "source_type": "official_provider",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "program_verified_current_date_unverified",
+      "notes": "Panasonic confirms the programme remains active; current-cycle dates should not be guessed."
+    },
+    {
+      "scholarship_id": "PVT07",
+      "scholarship_name": "Bharti Airtel Scholarship 2026-27",
+      "official_name": "Bharti Airtel Scholarship",
+      "provider": "Bharti Airtel Foundation",
+      "provider_type": "Private Foundation",
+      "government_or_private": "Private",
+      "ministry_or_company": "Bharti Airtel Foundation",
+      "scheme_type": "Merit-cum-Means / Engineering & Technology",
+      "description": "Supports first-year students in specified technology/engineering fields at top-50 NIRF Engineering institutions.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Undergraduate",
+        "5-year integrated technology"
+      ],
+      "course_types": [
+        "Electronics & Communication",
+        "Telecom",
+        "Information Technology",
+        "Computer Science",
+        "Data Science",
+        "Aerospace",
+        "AI",
+        "IoT",
+        "AR/VR",
+        "Machine Learning",
+        "Robotics",
+        "other listed emerging technologies"
+      ],
+      "target_group": [
+        "First-year future-tech/engineering students"
+      ],
+      "benefit_amount": null,
+      "benefit_currency": "INR",
+      "benefit_frequency": "full-duration subject to renewal",
+      "benefit_description": "100% annual tuition; hostel/mess support; high-end laptop; mentoring, subject to programme terms.",
+      "application_start": null,
+      "application_deadline": null,
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN",
+      "application_url": "https://www.bhartiairtelfoundation.org/bharti-airtel-scholarship",
+      "official_website": "https://www.bhartiairtelfoundation.org/bharti-airtel-scholarship",
+      "official_guidelines_url": "https://www.bhartiairtelfoundation.org/bharti-airtel-scholarship",
+      "official_faq_url": null,
+      "primary_source_url": "https://www.bhartiairtelfoundation.org/bharti-airtel-scholarship",
+      "source_type": "official",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "Official Foundation page explicitly says applications are open for 2026-27."
+    },
+    {
+      "scholarship_id": "PVT08",
+      "scholarship_name": "LIC Golden Jubilee Scholarship Scheme 2026",
+      "official_name": "LIC Golden Jubilee Scholarship Scheme",
+      "provider": "LIC Golden Jubilee Foundation",
+      "provider_type": "Foundation / PSU-linked",
+      "government_or_private": "Private/Foundation",
+      "ministry_or_company": "Life Insurance Corporation of India",
+      "scheme_type": "Merit-cum-Means",
+      "description": "Golden Jubilee Foundation scholarship with regular and special scholarship tracks.",
+      "academic_year": "2026",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Post-Class XII / eligible courses",
+        "Special scholarship for girls in intermediate as applicable"
+      ],
+      "course_types": [
+        "Eligible courses specified by current scheme"
+      ],
+      "target_group": [
+        "Meritorious students from economically weaker families"
+      ],
+      "benefit_amount": null,
+      "benefit_currency": "INR",
+      "benefit_frequency": "per year / category dependent",
+      "benefit_description": "Award amounts vary by category under the scheme.",
+      "application_start": null,
+      "application_deadline": "2026-10-15",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN_OR_RECENTLY_OPEN",
+      "application_url": "https://licindia.in/en/web/guest/golden-jubilee-foundation",
+      "official_website": "https://licindia.in/en/web/guest/golden-jubilee-foundation",
+      "official_guidelines_url": "https://licindia.in/en/web/guest/golden-jubilee-foundation",
+      "official_faq_url": null,
+      "primary_source_url": "https://licindia.in/en/web/guest/golden-jubilee-foundation",
+      "source_type": "official",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "current_source_conflict_flagged",
+      "notes": "Search-indexed LIC material references 2026 and a 15-Oct-2026 extension, while the currently opened English page still exposes 2025 scheme links. Keep this record flagged until the 2026 PDF is directly captured."
+    },
+    {
+      "scholarship_id": "PVT09",
+      "scholarship_name": "L&T Build India Scholarship 2026",
+      "official_name": "Build India Scholarship",
+      "provider": "Larsen & Toubro",
+      "provider_type": "Private Corporate",
+      "government_or_private": "Private",
+      "ministry_or_company": "Larsen & Toubro",
+      "scheme_type": "Sponsored M.Tech / Industry-Academia",
+      "description": "L&T programme enabling selected young engineers to pursue M.Tech in Construction Technology & Management through partner institutions.",
+      "academic_year": "2026",
+      "country": "India",
+      "state_scope": [
+        "All India"
+      ],
+      "education_levels": [
+        "Postgraduate"
+      ],
+      "course_types": [
+        "M.Tech Construction Technology & Management"
+      ],
+      "target_group": [
+        "Eligible final-year engineering students/graduates as per current intake"
+      ],
+      "benefit_amount": 13400,
+      "benefit_currency": "INR",
+      "benefit_frequency": "monthly stipend",
+      "benefit_description": "Sponsored M.Tech plus monthly stipend under current programme materials; exact intake rules are captured separately.",
+      "application_start": null,
+      "application_deadline": "2026-03-25",
+      "renewal_available": false,
+      "fresh_application": true,
+      "application_status": "CLOSED",
+      "application_url": "https://www.larsentoubro.com/",
+      "official_website": "https://www.larsentoubro.com/",
+      "official_guidelines_url": null,
+      "official_faq_url": null,
+      "primary_source_url": "https://investors.larsentoubro.com/pdf/2026/Integrated%20Report%202025-26.pdf",
+      "source_type": "official_program_confirmation_plus_current_listing",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "program_verified_date_secondary",
+      "notes": "L&T's 2025-26 Integrated Report confirms Build India Scholarship and partner institutions; 2026 intake deadline is from current programme listings."
+    },
+    {
+      "scholarship_id": "PVT10",
+      "scholarship_name": "Santoor Women's Scholarship Programme 2026-27",
+      "official_name": "Santoor Women's Scholarship Programme",
+      "provider": "Santoor / programme partners",
+      "provider_type": "Private / CSR",
+      "government_or_private": "Private",
+      "ministry_or_company": "Santoor",
+      "scheme_type": "Women / Higher Education",
+      "description": "Scholarship programme supporting eligible women pursuing higher education, subject to state and schooling-background criteria.",
+      "academic_year": "2026-27",
+      "country": "India",
+      "state_scope": [
+        "Selected states per current programme rules"
+      ],
+      "education_levels": [
+        "Undergraduate / higher education"
+      ],
+      "course_types": [
+        "Courses of at least 3 years under cited current listings"
+      ],
+      "target_group": [
+        "Women students meeting programme-specific state/background criteria"
+      ],
+      "benefit_amount": 30000,
+      "benefit_currency": "INR",
+      "benefit_frequency": "per year",
+      "benefit_description": "INR 30,000 per year until course completion under current programme listings.",
+      "application_start": null,
+      "application_deadline": "2026-10-15",
+      "renewal_available": true,
+      "fresh_application": true,
+      "application_status": "OPEN_OR_RECENTLY_OPEN",
+      "application_url": null,
+      "official_website": null,
+      "official_guidelines_url": null,
+      "official_faq_url": null,
+      "primary_source_url": "https://www.buddy4study.com/article/scholarships-for-indian-girls-and-women",
+      "source_type": "current_secondary",
+      "source_last_checked": "2026-10-01",
+      "verification_status": "partial_current_secondary_only",
+      "notes": "Do not use as production truth until the 2026-27 official programme page/guidelines are captured."
+    }
+  ]
+}

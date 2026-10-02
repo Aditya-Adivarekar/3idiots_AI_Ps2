@@ -1,0 +1,875 @@
+{
+  "metadata": {
+    "dataset_name": "Dataset 9 - Document Acquisition Guide",
+    "version": "1.0",
+    "generated_on": "2026-10-01",
+    "academic_year_focus": "2026-27",
+    "record_count": 15,
+    "purpose": "Explain how students obtain missing documents required by scholarship applications.",
+    "scope": "National processes where a national authority exists, plus Maharashtra state-certificate workflows as a concrete verified state implementation.",
+    "important_rule": "Obtaining a document may allow eligibility verification or application readiness; it does not by itself make the student eligible.",
+    "source_policy": "Use official government/provider acquisition processes wherever available. Institution/board-specific processes are marked general rather than invented as official national workflows.",
+    "linked_datasets": [
+      "dataset_3_documents_required_2026_27.json",
+      "dataset_4_document_validation_rules_2026_27.json",
+      "dataset_8_application_process_steps_2026_27.json"
+    ]
+  },
+  "document_acquisition_guides": [
+    {
+      "document_id": "DOCACQ001",
+      "document_name": "Income Certificate",
+      "jurisdiction": "Maharashtra",
+      "scope": "state",
+      "issuing_authority": "Revenue Department / Nayab Tahsildar",
+      "official_portal": "https://aaplesarkar.mahaonline.gov.in/",
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Register on Aaple Sarkar.",
+          "details": "Create a user ID/password using Aadhaar verification or mobile OTP profile registration."
+        },
+        {
+          "step": 2,
+          "action": "Open Revenue Department services.",
+          "details": "Choose Revenue Services."
+        },
+        {
+          "step": 3,
+          "action": "Select Income Certificate.",
+          "details": "Review the service-specific document checklist."
+        },
+        {
+          "step": 4,
+          "action": "Fill income and family details.",
+          "details": "Enter income year, applicant/address details, family/farm/other-source income and beneficiary information."
+        },
+        {
+          "step": 5,
+          "action": "Upload supporting documents.",
+          "details": "Attach the required proofs shown by the portal."
+        },
+        {
+          "step": 6,
+          "action": "Accept declaration and submit.",
+          "details": "Complete the application and pay the applicable service fee."
+        },
+        {
+          "step": 7,
+          "action": "Track application.",
+          "details": "Use the Aaple Sarkar application ID to follow status and respond to rectification requests if raised."
+        },
+        {
+          "step": 8,
+          "action": "Download/verify certificate when issued.",
+          "details": "Use the authenticated-certificate verification feature where available."
+        }
+      ],
+      "supporting_documents": [
+        "Identity proof",
+        "Address proof",
+        "Income-related supporting evidence",
+        "Self-declaration",
+        "Other documents requested by the portal based on applicant case"
+      ],
+      "fee": null,
+      "processing_time": "15 days under Maharashtra notified Right to Service timeline",
+      "online_available": true,
+      "source_url": "https://aaplesarkar.mahaonline.gov.in/pdf/Fees%2C%20Procedure%2C%20Checklist_Income%20Certificate.pdf",
+      "source_type": "official",
+      "verification_status": "verified_official",
+      "applicable_scholarship_ids": [
+        "GOV02",
+        "GOV03",
+        "GOV04",
+        "GOV05",
+        "GOV06",
+        "GOV07",
+        "GOV08",
+        "PVT01",
+        "PVT02",
+        "PVT03",
+        "PVT05",
+        "PVT07",
+        "PVT08"
+      ],
+      "notes": "Scholarship-specific acceptable financial year/issuer still comes from that scholarship's rule set."
+    },
+    {
+      "document_id": "DOCACQ002",
+      "document_name": "Age, Nationality and Domicile Certificate",
+      "jurisdiction": "Maharashtra",
+      "scope": "state",
+      "issuing_authority": "Revenue Department / Tahsildar",
+      "official_portal": "https://aaplesarkar.mahaonline.gov.in/",
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Register/login on Aaple Sarkar.",
+          "details": "Use OTP/Aadhaar-based profile registration."
+        },
+        {
+          "step": 2,
+          "action": "Open Revenue Department services.",
+          "details": "Choose Age, Nationality and Domicile Certificate."
+        },
+        {
+          "step": 3,
+          "action": "Review identity/address/residence evidence requirements.",
+          "details": "The portal shows acceptable proofs for the selected service."
+        },
+        {
+          "step": 4,
+          "action": "Fill applicant and residence details.",
+          "details": "Enter personal/address/residence-history information accurately."
+        },
+        {
+          "step": 5,
+          "action": "Upload required evidence and submit.",
+          "details": "Attach accepted documents and complete the service application."
+        },
+        {
+          "step": 6,
+          "action": "Track by application ID.",
+          "details": "Respond to any rectification request if raised."
+        },
+        {
+          "step": 7,
+          "action": "Receive and verify the authenticated certificate.",
+          "details": "Use the certificate verification feature where available."
+        }
+      ],
+      "supporting_documents": [
+        "Identity proof",
+        "Address proof",
+        "Residence/domicile supporting records as requested by portal"
+      ],
+      "fee": null,
+      "processing_time": "15 days under Maharashtra notified Right to Service timeline",
+      "online_available": true,
+      "source_url": "https://aaplesarkar.mahaonline.gov.in/en/CommonForm/CitizenServices_RTS",
+      "source_type": "official",
+      "verification_status": "verified_official",
+      "applicable_scholarship_ids": [
+        "GOV05",
+        "PVT10"
+      ],
+      "notes": "Only use where the scholarship actually requires domicile/residence evidence."
+    },
+    {
+      "document_id": "DOCACQ003",
+      "document_name": "Caste Certificate",
+      "jurisdiction": "Maharashtra",
+      "scope": "state",
+      "issuing_authority": "Sub-Divisional Officer / Deputy Collector",
+      "official_portal": "https://aaplesarkar.mahaonline.gov.in/",
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Open Aaple Sarkar caste-certificate service.",
+          "details": "Review the service-specific document checklist."
+        },
+        {
+          "step": 2,
+          "action": "Prepare at least one accepted identity proof.",
+          "details": "Examples on the official checklist include PAN, Passport, MNREGA Job Card, Driving Licence, applicant photo, or government/semi-government ID."
+        },
+        {
+          "step": 3,
+          "action": "Prepare at least one accepted address proof.",
+          "details": "Examples include Passport, water bill, ration card, Aadhaar, voter ID, telephone/electricity bill, driving licence, property-tax receipt, 7/12/8A extract or rent receipt."
+        },
+        {
+          "step": 4,
+          "action": "Prepare caste-supporting/other records.",
+          "details": "Upload documents requested by the service based on family/community evidence."
+        },
+        {
+          "step": 5,
+          "action": "Submit the application through the prescribed Aaple Sarkar/service-centre process.",
+          "details": "Follow portal instructions and keep the application ID."
+        },
+        {
+          "step": 6,
+          "action": "Track status and answer rectification requests.",
+          "details": "Use the application tracking function."
+        },
+        {
+          "step": 7,
+          "action": "Verify the issued authenticated certificate.",
+          "details": "Use the 18-digit barcode verification function when available."
+        }
+      ],
+      "supporting_documents": [
+        "At least one approved identity proof",
+        "At least one approved address proof",
+        "Caste/community supporting documents",
+        "Affidavit or other documents where required"
+      ],
+      "fee": null,
+      "processing_time": "21 days under Maharashtra notified Right to Service timeline",
+      "online_available": true,
+      "source_url": "https://aaplesarkar.mahaonline.gov.in/en/Login/Certificate_Documents?ServiceId=1289",
+      "source_type": "official",
+      "verification_status": "verified_official",
+      "applicable_scholarship_ids": [
+        "GOV05",
+        "GOV06",
+        "PVT01"
+      ],
+      "notes": "OBC-NCL may require a separate Non-Creamy Layer certificate in addition to caste certificate."
+    },
+    {
+      "document_id": "DOCACQ004",
+      "document_name": "Non-Creamy Layer Certificate",
+      "jurisdiction": "Maharashtra",
+      "scope": "state",
+      "issuing_authority": "Sub-Divisional Officer / competent Revenue Authority",
+      "official_portal": "https://aaplesarkar.mahaonline.gov.in/",
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Register/login on Aaple Sarkar.",
+          "details": "Use your citizen profile."
+        },
+        {
+          "step": 2,
+          "action": "Select Non-Creamy Layer Certificate under Revenue Department services.",
+          "details": "Review current service documents and eligibility."
+        },
+        {
+          "step": 3,
+          "action": "Provide caste/category and family-income information.",
+          "details": "Enter required family and income details."
+        },
+        {
+          "step": 4,
+          "action": "Upload caste, identity, address and income-related proofs as requested.",
+          "details": "Use the current portal checklist."
+        },
+        {
+          "step": 5,
+          "action": "Submit and track the application.",
+          "details": "Respond to any rectification request from the revenue authority."
+        },
+        {
+          "step": 6,
+          "action": "Download/collect the certificate after approval.",
+          "details": "Verify authenticity where the portal supports it."
+        }
+      ],
+      "supporting_documents": [
+        "Caste certificate",
+        "Identity proof",
+        "Address proof",
+        "Income/family records as requested"
+      ],
+      "fee": null,
+      "processing_time": "21 days under Maharashtra notified Right to Service timeline",
+      "online_available": true,
+      "source_url": "https://aaplesarkar.mahaonline.gov.in/en/CommonForm/CitizenServices_RTS",
+      "source_type": "official",
+      "verification_status": "verified_official_service_timeline_process_generic",
+      "applicable_scholarship_ids": [
+        "GOV05",
+        "GOV09"
+      ],
+      "notes": "Exact supporting-document list should be taken from the live Aaple Sarkar service page when applying."
+    },
+    {
+      "document_id": "DOCACQ005",
+      "document_name": "Disability Certificate and UDID Card",
+      "jurisdiction": "India",
+      "scope": "national",
+      "issuing_authority": "Competent Medical Authority notified by State/UT under DEPwD UDID system",
+      "official_portal": "https://swavlambancard.gov.in/",
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Apply online for UDID / Disability Certificate.",
+          "details": "Complete and submit the application on the UDID portal."
+        },
+        {
+          "step": 2,
+          "action": "Visit the selected Hospital/CMO office after status shows Submitted.",
+          "details": "Go to the UDID/Disability Certification Section chosen in the application."
+        },
+        {
+          "step": 3,
+          "action": "Get the application verified.",
+          "details": "The hospital/medical authority verifies the application and may request corrections."
+        },
+        {
+          "step": 4,
+          "action": "Attend specialist assessment.",
+          "details": "Assigned specialist doctor(s) assess the disability and prepare a report."
+        },
+        {
+          "step": 5,
+          "action": "Medical Board review.",
+          "details": "The board determines disability type and percentage and validates the certificate."
+        },
+        {
+          "step": 6,
+          "action": "UDID and disability certificate are generated.",
+          "details": "The competent medical authority generates both after approval."
+        },
+        {
+          "step": 7,
+          "action": "Receive UDID card.",
+          "details": "DEPwD dispatches the card to the registered address by Speed Post."
+        },
+        {
+          "step": 8,
+          "action": "Give data-sharing consent when required for scholarships.",
+          "details": "Use PwD Dashboard consent to allow concerned government agencies/NSP to access UDID data."
+        }
+      ],
+      "supporting_documents": [
+        "Aadhaar number for applicants where mandated",
+        "Medical/identity/address information requested by UDID portal",
+        "Disability-related medical records where requested"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": true,
+      "source_url": "https://swavlambancard.gov.in/Applyforudid",
+      "source_type": "official",
+      "verification_status": "verified_official",
+      "applicable_scholarship_ids": [
+        "GOV03",
+        "GOV07",
+        "GOV08",
+        "PVT01",
+        "PVT03",
+        "PVT05"
+      ],
+      "notes": "UDID portal also provides a 'Find Nearest Medical Authority' tool by State/UT and district."
+    },
+    {
+      "document_id": "DOCACQ006",
+      "document_name": "Aadhaar / Aadhaar Update",
+      "jurisdiction": "India",
+      "scope": "national",
+      "issuing_authority": "UIDAI / authorised Aadhaar Enrolment or Update Centre",
+      "official_portal": "https://myaadhaar.uidai.gov.in/",
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Determine whether you need enrolment or an update.",
+          "details": "Existing holders can update supported demographic details; new applicants use enrolment."
+        },
+        {
+          "step": 2,
+          "action": "For online address update, login to myAadhaar.",
+          "details": "A registered mobile number is needed for OTP-based online services."
+        },
+        {
+          "step": 3,
+          "action": "Upload accepted supporting proof for the requested field.",
+          "details": "UIDAI publishes the current list of acceptable documents."
+        },
+        {
+          "step": 4,
+          "action": "For other demographic/biometric updates, visit an Aadhaar Enrolment/Update Centre.",
+          "details": "An operator captures the request and verifies documentary evidence where required."
+        },
+        {
+          "step": 5,
+          "action": "Collect acknowledgement number.",
+          "details": "Online/centre updates generate a request/enrolment number for tracking."
+        },
+        {
+          "step": 6,
+          "action": "Track the update request.",
+          "details": "Use UIDAI services to check status and download updated e-Aadhaar when available."
+        }
+      ],
+      "supporting_documents": [
+        "UIDAI-accepted Proof of Identity/Address/Date of Birth documents depending on requested update"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": true,
+      "source_url": "https://uidai.gov.in/en/updating-data-on-aadhaar",
+      "source_type": "official",
+      "verification_status": "verified_official",
+      "applicable_scholarship_ids": [
+        "GOV01",
+        "GOV02",
+        "GOV03",
+        "GOV04",
+        "GOV05",
+        "GOV06",
+        "GOV07",
+        "GOV08",
+        "GOV09",
+        "GOV10"
+      ],
+      "notes": "Registered mobile is needed for many online Aadhaar services; otherwise visit an enrolment/update centre."
+    },
+    {
+      "document_id": "DOCACQ007",
+      "document_name": "Bonafide Student Certificate",
+      "jurisdiction": "India",
+      "scope": "institutional",
+      "issuing_authority": "Current school/college/university",
+      "official_portal": null,
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Contact the institution's student section/registrar/administration office.",
+          "details": "Ask for a Bonafide Student Certificate for scholarship purposes."
+        },
+        {
+          "step": 2,
+          "action": "Provide student identification and enrolment details.",
+          "details": "Institution may ask for student ID, roll/enrolment number and purpose."
+        },
+        {
+          "step": 3,
+          "action": "Request scholarship-relevant fields.",
+          "details": "Ensure the certificate shows student name, institution, course/programme, year/semester and current enrolment."
+        },
+        {
+          "step": 4,
+          "action": "Collect digitally signed or stamped/signed certificate.",
+          "details": "Use the format accepted by the scholarship/application portal."
+        }
+      ],
+      "supporting_documents": [
+        "Student ID/enrolment details",
+        "Application/request form if institution uses one"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": null,
+      "source_url": "https://www.mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A2C489D8FEE1DE79D3D179EC97AB141825125A9561892EF10",
+      "source_type": "official_scholarship_portal_reference",
+      "verification_status": "institution_process_general",
+      "applicable_scholarship_ids": [
+        "GOV02",
+        "GOV03",
+        "GOV04",
+        "GOV05",
+        "GOV08",
+        "GOV09",
+        "PVT01",
+        "PVT02",
+        "PVT03",
+        "PVT05"
+      ],
+      "notes": "No single national issuance portal exists; exact request workflow depends on the institution."
+    },
+    {
+      "document_id": "DOCACQ008",
+      "document_name": "Current Academic-Year Fee Receipt",
+      "jurisdiction": "India",
+      "scope": "institutional",
+      "issuing_authority": "School/college/university accounts or fee section",
+      "official_portal": null,
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Check the institution's fee portal or accounts office.",
+          "details": "Look for paid-fee receipt/download option."
+        },
+        {
+          "step": 2,
+          "action": "Use student/enrolment credentials or provide payment details.",
+          "details": "Retrieve the receipt for the correct academic year/semester."
+        },
+        {
+          "step": 3,
+          "action": "Verify student name, institution, academic year and fee amount.",
+          "details": "The receipt should match the scholarship application data."
+        },
+        {
+          "step": 4,
+          "action": "Download or obtain an institution-authenticated copy.",
+          "details": "If the online receipt lacks authentication, request a signed/stamped version if the scholarship requires one."
+        }
+      ],
+      "supporting_documents": [
+        "Student ID/enrolment number",
+        "Fee-payment transaction/reference"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": null,
+      "source_url": "https://www.mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A2C489D8FEE1DE79D3D179EC97AB141825125A9561892EF10",
+      "source_type": "official_scholarship_portal_reference",
+      "verification_status": "institution_process_general",
+      "applicable_scholarship_ids": [
+        "GOV05",
+        "GOV08",
+        "PVT01",
+        "PVT02",
+        "PVT05",
+        "PVT06",
+        "PVT07"
+      ],
+      "notes": "Acquisition process is institution-specific."
+    },
+    {
+      "document_id": "DOCACQ009",
+      "document_name": "Bank Passbook / Account Proof",
+      "jurisdiction": "India",
+      "scope": "banking",
+      "issuing_authority": "Applicant's bank",
+      "official_portal": null,
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Use an active bank account meeting the scholarship's ownership requirements.",
+          "details": "Some schemes require the account to be in the student's own name and Aadhaar seeded."
+        },
+        {
+          "step": 2,
+          "action": "Obtain the passbook first page or account statement.",
+          "details": "It should display account holder name, account number and IFSC."
+        },
+        {
+          "step": 3,
+          "action": "If required, obtain a cancelled cheque.",
+          "details": "Some private scholarship portals accept this as an alternative."
+        },
+        {
+          "step": 4,
+          "action": "Check name and bank details against the scholarship profile.",
+          "details": "Resolve mismatches before uploading."
+        },
+        {
+          "step": 5,
+          "action": "Complete Aadhaar seeding/DBT activation where the scheme specifically requires it.",
+          "details": "Contact the bank or use supported bank/UIDAI processes."
+        }
+      ],
+      "supporting_documents": [
+        "Bank account",
+        "KYC documents as required by bank"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": null,
+      "source_url": "https://scholarships.gov.in/",
+      "source_type": "official_portal_context",
+      "verification_status": "general_process_with_scheme_specific_overrides",
+      "applicable_scholarship_ids": [
+        "GOV02",
+        "GOV03",
+        "GOV04",
+        "GOV05",
+        "GOV06",
+        "GOV07",
+        "GOV08",
+        "GOV10",
+        "PVT01",
+        "PVT02",
+        "PVT03",
+        "PVT05",
+        "PVT06",
+        "PVT07",
+        "PVT08"
+      ],
+      "notes": "Exact bank-account type, student ownership and Aadhaar-seeding rules come from Dataset 4 scheme-specific validators."
+    },
+    {
+      "document_id": "DOCACQ010",
+      "document_name": "Admission Letter / Seat Allotment / Admission Proof",
+      "jurisdiction": "India",
+      "scope": "institutional",
+      "issuing_authority": "Admitting institution / counselling authority",
+      "official_portal": null,
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Download the admission/seat-allotment letter from the counselling or institution portal.",
+          "details": "Use the official portal for the current admission cycle."
+        },
+        {
+          "step": 2,
+          "action": "If not downloadable, request a duplicate/official admission confirmation from the institution.",
+          "details": "Contact admission/student section."
+        },
+        {
+          "step": 3,
+          "action": "Verify course, institution, admission year and student name.",
+          "details": "These fields must match the scholarship profile."
+        },
+        {
+          "step": 4,
+          "action": "Save the official PDF/copy for upload.",
+          "details": "Use the current-cycle document."
+        }
+      ],
+      "supporting_documents": [
+        "Admission credentials/application ID",
+        "Student identity"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": null,
+      "source_url": null,
+      "source_type": "institution_specific",
+      "verification_status": "general_process",
+      "applicable_scholarship_ids": [
+        "GOV05",
+        "GOV06",
+        "GOV08",
+        "PVT01",
+        "PVT02",
+        "PVT03",
+        "PVT04",
+        "PVT05",
+        "PVT06",
+        "PVT07",
+        "PVT08"
+      ],
+      "notes": "No universal national acquisition portal exists."
+    },
+    {
+      "document_id": "DOCACQ011",
+      "document_name": "Marksheet / Academic Certificate",
+      "jurisdiction": "India",
+      "scope": "board_or_institution",
+      "issuing_authority": "Issuing Board / University / Institution",
+      "official_portal": null,
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Use the issuing board/university/institution's result or document portal.",
+          "details": "Download the officially issued marksheet where digital access is available."
+        },
+        {
+          "step": 2,
+          "action": "For lost documents, use the issuer's duplicate-certificate/marksheet process.",
+          "details": "Requirements and fees depend on the board/university."
+        },
+        {
+          "step": 3,
+          "action": "Verify student name, examination, year and marks/CGPA.",
+          "details": "Resolve discrepancies before scholarship upload."
+        },
+        {
+          "step": 4,
+          "action": "Use DigiLocker only where the issuer's digital record is available and the scholarship accepts it.",
+          "details": "Do not assume every scholarship accepts every digital copy."
+        }
+      ],
+      "supporting_documents": [
+        "Roll/enrolment number",
+        "Identity proof",
+        "Issuer-specific duplicate-document requirements if needed"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": null,
+      "source_url": null,
+      "source_type": "issuer_specific",
+      "verification_status": "general_process",
+      "applicable_scholarship_ids": [
+        "GOV02",
+        "GOV03",
+        "GOV04",
+        "GOV05",
+        "GOV06",
+        "GOV07",
+        "GOV08",
+        "GOV09",
+        "GOV10",
+        "PVT01",
+        "PVT02",
+        "PVT03",
+        "PVT04",
+        "PVT05",
+        "PVT06",
+        "PVT07",
+        "PVT08",
+        "PVT09",
+        "PVT10"
+      ],
+      "notes": "Exact issuer process varies by education board/university."
+    },
+    {
+      "document_id": "DOCACQ012",
+      "document_name": "Death Certificate",
+      "jurisdiction": "India",
+      "scope": "civil_registration",
+      "issuing_authority": "Local Registrar of Births and Deaths / State or local civil registration authority",
+      "official_portal": null,
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Identify the local civil-registration authority where the death was registered.",
+          "details": "This may be municipal corporation, municipality, panchayat or other designated registrar."
+        },
+        {
+          "step": 2,
+          "action": "Request/download the registered death certificate through the applicable state/local portal or registrar office.",
+          "details": "Use registration details and identity/relationship information as required."
+        },
+        {
+          "step": 3,
+          "action": "Check deceased name, date and cause fields where the scholarship depends on them.",
+          "details": "For Swanath COVID-19 category, the relevant official scheme requires COVID-19 to be explicitly supported."
+        },
+        {
+          "step": 4,
+          "action": "Obtain an authenticated copy if the portal/application requires one.",
+          "details": "Keep both digital and physical versions if available."
+        }
+      ],
+      "supporting_documents": [
+        "Death registration details",
+        "Applicant/relative identity and relationship proof as required by registrar"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": null,
+      "source_url": "https://www.myscheme.gov.in/schemes/aicte-ssss",
+      "source_type": "official_scheme_context",
+      "verification_status": "acquisition_process_varies_by_state",
+      "applicable_scholarship_ids": [
+        "GOV04",
+        "PVT05"
+      ],
+      "notes": "Civil-registration process is state/local-body specific; scholarship-specific cause-of-death requirements must be checked separately."
+    },
+    {
+      "document_id": "DOCACQ013",
+      "document_name": "Orphan Certificate",
+      "jurisdiction": "India",
+      "scope": "state_or_local_revenue",
+      "issuing_authority": "Tehsildar / SDM or competent authority where applicable",
+      "official_portal": null,
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Check whether the target scholarship accepts an orphan certificate as an alternative to parental death certificates.",
+          "details": "Swanath explicitly provides prescribed orphan-certificate pathways."
+        },
+        {
+          "step": 2,
+          "action": "Approach the competent Tehsildar/SDM/revenue authority for the prescribed certificate.",
+          "details": "Use the format required by the scholarship/authority."
+        },
+        {
+          "step": 3,
+          "action": "Provide parental death and relationship/identity evidence requested by the authority.",
+          "details": "Requirements vary by jurisdiction."
+        },
+        {
+          "step": 4,
+          "action": "Obtain the signed/stamped certificate and verify names/relationships.",
+          "details": "Use the prescribed current format."
+        }
+      ],
+      "supporting_documents": [
+        "Parents' death evidence",
+        "Applicant identity",
+        "Relationship/family evidence"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": null,
+      "source_url": "https://www.myscheme.gov.in/schemes/aicte-ssss",
+      "source_type": "official_scheme_context",
+      "verification_status": "scheme_verified_process_jurisdiction_specific",
+      "applicable_scholarship_ids": [
+        "GOV04"
+      ],
+      "notes": "The exact government issuance workflow varies by State/UT."
+    },
+    {
+      "document_id": "DOCACQ014",
+      "document_name": "Shaheed / Martyr Certificate",
+      "jurisdiction": "India",
+      "scope": "service_authority",
+      "issuing_authority": "Relevant Armed Forces / Central Paramilitary Forces authority",
+      "official_portal": null,
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Contact the relevant service/force welfare or records authority.",
+          "details": "Request official proof that the parent was martyred in action."
+        },
+        {
+          "step": 2,
+          "action": "Provide service number, deceased service member details and relationship proof.",
+          "details": "Exact evidence depends on the force/service."
+        },
+        {
+          "step": 3,
+          "action": "Obtain the official martyr/shaheed certificate or prescribed service proof.",
+          "details": "Ensure it identifies the force/service and relationship."
+        },
+        {
+          "step": 4,
+          "action": "Upload it with the scholarship application.",
+          "details": "Use it only for schemes that explicitly accept this category."
+        }
+      ],
+      "supporting_documents": [
+        "Service member details",
+        "Applicant relationship proof",
+        "Identity documents"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": null,
+      "source_url": "https://www.myscheme.gov.in/schemes/aicte-ssss",
+      "source_type": "official_scheme_context",
+      "verification_status": "scheme_verified_issuer_process_force_specific",
+      "applicable_scholarship_ids": [
+        "GOV04"
+      ],
+      "notes": null
+    },
+    {
+      "document_id": "DOCACQ015",
+      "document_name": "Worker Identity Card / Form B / Worker Registration Proof",
+      "jurisdiction": "India",
+      "scope": "labour_welfare",
+      "issuing_authority": "Applicable labour welfare organisation / employer / competent labour authority",
+      "official_portal": null,
+      "application_steps": [
+        {
+          "step": 1,
+          "action": "Identify the worker category required by the scholarship.",
+          "details": "Beedi, Cine, IOMC or LSDM-related categories use scheme-specific worker proof."
+        },
+        {
+          "step": 2,
+          "action": "Obtain the worker identity card, licence or Form B/register details accepted by the scheme.",
+          "details": "Use the relevant welfare/industry authority or employer records."
+        },
+        {
+          "step": 3,
+          "action": "Verify parent/guardian name and worker-category details.",
+          "details": "They must correspond to the student's relationship and scheme category."
+        },
+        {
+          "step": 4,
+          "action": "Upload the proof in NSP with the current application.",
+          "details": "Keep original/official copy for verification."
+        }
+      ],
+      "supporting_documents": [
+        "Worker/employment details",
+        "Parent/guardian identity",
+        "Student relationship evidence where required"
+      ],
+      "fee": null,
+      "processing_time": null,
+      "online_available": null,
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290429&lang=2&reg=48",
+      "source_type": "official_PIB_scheme_context",
+      "verification_status": "scheme_verified_document_type_acquisition_varies",
+      "applicable_scholarship_ids": [
+        "GOV10"
+      ],
+      "notes": null
+    }
+  ]
+}

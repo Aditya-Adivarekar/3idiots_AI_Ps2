@@ -1,0 +1,973 @@
+{
+  "metadata": {
+    "dataset_name": "Dataset 11 - What-If Test Cases",
+    "version": "1.0",
+    "generated_on": "2026-10-01",
+    "academic_year_focus": "2026-27",
+    "case_count": 32,
+    "purpose": "Demonstrate and regression-test the What-If simulator using temporary profile mutations.",
+    "simulation_contract": {
+      "clone_profile_first": true,
+      "mutate_stored_profile": false,
+      "re_run_rule_engine": true,
+      "show_changed_rules": true,
+      "show_before_after_status": true,
+      "separate_application_status": true,
+      "persist_only_if_user_explicitly_updates_real_profile": true
+    },
+    "linked_datasets": [
+      "dataset_2_eligibility_rules_2026_27.json",
+      "dataset_7_clause_page_evidence_mapping_2026_27.json",
+      "dataset_10_edge_test_cases_2026_27.json"
+    ]
+  },
+  "what_if_cases": [
+    {
+      "case_id": "WHATIF-GEN-001",
+      "title": "Lower income crosses an inclusive threshold",
+      "scholarship_id": "GENERIC",
+      "base_profile": {
+        "family_income": 800001
+      },
+      "temporary_mutation": {
+        "family_income": 800000
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "family_income <= 800000: fail -> pass"
+      ],
+      "expected_explanation": "At ₹8,00,001 the income rule fails; at exactly ₹8,00,000 an inclusive <= rule passes.",
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GEN-002",
+      "title": "Raise percentage to minimum",
+      "scholarship_id": "GENERIC",
+      "base_profile": {
+        "percentage": 59.99
+      },
+      "temporary_mutation": {
+        "percentage": 60
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "percentage >= 60: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GEN-003",
+      "title": "Add missing information without changing real profile",
+      "scholarship_id": "GENERIC",
+      "base_profile": {},
+      "temporary_mutation": {
+        "family_income": 200000
+      },
+      "expected_before_eligibility": "NEEDS_MORE_INFORMATION",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "family_income: missing -> verified hypothetical"
+      ],
+      "expected_explanation": "The simulation can evaluate the hypothetical income, but the stored profile remains unchanged.",
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GEN-004",
+      "title": "Hypothetical document obtained",
+      "scholarship_id": "GENERIC",
+      "base_profile": {
+        "category": "OBC"
+      },
+      "temporary_mutation": {
+        "document_state": {
+          "category_certificate": "available_and_matching"
+        }
+      },
+      "expected_before_eligibility": "NEEDS_MORE_INFORMATION",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "category evidence: missing -> available"
+      ],
+      "expected_explanation": "Obtaining the document may allow verification; it does not change the underlying category.",
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GEN-005",
+      "title": "Deadline does not change eligibility",
+      "scholarship_id": "GENERIC",
+      "base_profile": {
+        "all_rules_pass": true
+      },
+      "temporary_mutation": {
+        "application_date": "after_deadline"
+      },
+      "expected_before_eligibility": "ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": "OPEN",
+      "expected_application_status_after": "DEADLINE_PASSED",
+      "changed_rule_results": [],
+      "expected_explanation": "Eligibility remains Eligible while application availability changes.",
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV02-001",
+      "title": "Pragati income drops to threshold",
+      "scholarship_id": "GOV02",
+      "base_profile": {
+        "gender": "female",
+        "institution_approval": "AICTE-approved",
+        "entry_year": "first_year",
+        "family_income": 900000,
+        "girls_per_family_receiving_scheme": 1,
+        "gap_after_qualifying_exam_years": 1
+      },
+      "temporary_mutation": {
+        "family_income": 800000
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV02-R004: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV02-R004"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV02-002",
+      "title": "Pragati change from regular second year to lateral-entry second year",
+      "scholarship_id": "GOV02",
+      "base_profile": {
+        "gender": "female",
+        "institution_approval": "AICTE-approved",
+        "entry_year": "second_year_regular",
+        "family_income": 500000,
+        "girls_per_family_receiving_scheme": 1,
+        "gap_after_qualifying_exam_years": 0
+      },
+      "temporary_mutation": {
+        "entry_year": "second_year_lateral_entry"
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV02-R003: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV02-R003"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV03-001",
+      "title": "Saksham disability increases to benchmark threshold",
+      "scholarship_id": "GOV03",
+      "base_profile": {
+        "disability_percentage": 39,
+        "family_income": 500000,
+        "institution_approval": "AICTE-approved",
+        "entry_year": "first_year"
+      },
+      "temporary_mutation": {
+        "disability_percentage": 40
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV03-R001: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV03-R001"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV03-002",
+      "title": "Saksham obtain UDID consent",
+      "scholarship_id": "GOV03",
+      "base_profile": {
+        "disability_percentage": 50,
+        "family_income": 500000,
+        "institution_approval": "AICTE-approved",
+        "entry_year": "first_year",
+        "udid_consent": false
+      },
+      "temporary_mutation": {
+        "udid_consent": true
+      },
+      "expected_before_eligibility": "ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": "APPLICATION_BLOCKED",
+      "expected_application_status_after": "READY_TO_SUBMIT",
+      "changed_rule_results": [
+        "GOV03-R005 application gate: blocked -> satisfied"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV03-R005"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV05-001",
+      "title": "YASASVI income decreases to ₹2.5 lakh",
+      "scholarship_id": "GOV05",
+      "base_profile": {
+        "category": "OBC",
+        "family_income": 300000,
+        "institution": "notified_top_class_institutions",
+        "course_mode": "full_time_regular"
+      },
+      "temporary_mutation": {
+        "family_income": 250000
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV05-R002: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV05-R002"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV05-002",
+      "title": "YASASVI move to notified institution",
+      "scholarship_id": "GOV05",
+      "base_profile": {
+        "category": "OBC",
+        "family_income": 200000,
+        "institution": "not_notified",
+        "course_mode": "full_time_regular"
+      },
+      "temporary_mutation": {
+        "institution": "notified_top_class_institutions"
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV05-R003: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV05-R003"
+      ],
+      "notes": "Simulation is informational; changing institution is a real-world decision outside the app."
+    },
+    {
+      "case_id": "WHATIF-GOV06-001",
+      "title": "SC income moves below threshold",
+      "scholarship_id": "GOV06",
+      "base_profile": {
+        "category": "SC",
+        "family_income": 900000,
+        "institution": "ministry_notified_institutions"
+      },
+      "temporary_mutation": {
+        "family_income": 800000
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV06-R002: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV06-R002"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV06-002",
+      "title": "Provide category evidence",
+      "scholarship_id": "GOV06",
+      "base_profile": {
+        "category": "SC",
+        "family_income": 300000,
+        "institution": "ministry_notified_institutions",
+        "category_document_present": false
+      },
+      "temporary_mutation": {
+        "category_document_present": true
+      },
+      "expected_before_eligibility": "NEEDS_MORE_INFORMATION",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "category evidence: missing -> available"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV06-R001"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV07-001",
+      "title": "PwD post-matric income crosses threshold",
+      "scholarship_id": "GOV07",
+      "base_profile": {
+        "disability_percentage": 50,
+        "family_income": 260000,
+        "education_level": "Undergraduate"
+      },
+      "temporary_mutation": {
+        "family_income": 250000
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV07-R002: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV07-R002"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV07-002",
+      "title": "PwD education level becomes eligible post-matric level",
+      "scholarship_id": "GOV07",
+      "base_profile": {
+        "disability_percentage": 50,
+        "family_income": 200000,
+        "education_level": "Class X"
+      },
+      "temporary_mutation": {
+        "education_level": "Class XI"
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV07-R003: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV07-R003"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV08-001",
+      "title": "Top Class PwD moves to notified institution",
+      "scholarship_id": "GOV08",
+      "base_profile": {
+        "disability_status": "benchmark_disability",
+        "institution": "not_notified"
+      },
+      "temporary_mutation": {
+        "institution": "notified_top_class_institutions"
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV08-R002: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV08-R002"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV09-001",
+      "title": "UG to PG study level",
+      "scholarship_id": "GOV09",
+      "base_profile": {
+        "education_level": "Undergraduate"
+      },
+      "temporary_mutation": {
+        "education_level": "Postgraduate"
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "NEEDS_MORE_INFORMATION",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV09-R001: fail -> pass",
+        "GOV09-R005: evidence gate still unresolved"
+      ],
+      "expected_explanation": "Changing to postgraduate study satisfies the stored level rule, but current detailed official eligibility still needs verification.",
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV09-R001",
+        "GOV09-R005"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-GOV10-001",
+      "title": "Parent occupation changes to covered worker category",
+      "scholarship_id": "GOV10",
+      "base_profile": {
+        "parent_worker_category": "Office worker",
+        "education_stage": "post_matric"
+      },
+      "temporary_mutation": {
+        "parent_worker_category": "Beedi"
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "NEEDS_MORE_INFORMATION",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "GOV10-R001: fail -> pass",
+        "GOV10-R004: occupation proof still missing"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "GOV10-R001",
+        "GOV10-R004"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT01-001",
+      "title": "Tata marks rise to threshold",
+      "scholarship_id": "PVT01",
+      "base_profile": {
+        "citizenship": "Indian",
+        "previous_academic_marks": 59,
+        "parental_income": 300000,
+        "education_level": "Undergraduate",
+        "employee_child_exclusion": "none"
+      },
+      "temporary_mutation": {
+        "previous_academic_marks": 60
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT01-R002: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED",
+        "SECONDARY_RULE_RECHECK_REQUIRED"
+      ],
+      "source_rule_refs": [
+        "PVT01-R002"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT02-001",
+      "title": "HDFC marks rise to 55%",
+      "scholarship_id": "PVT02",
+      "base_profile": {
+        "citizenship": "Indian",
+        "previous_qualifying_marks": 54.9,
+        "family_income": 200000,
+        "education_level": "Undergraduate"
+      },
+      "temporary_mutation": {
+        "previous_qualifying_marks": 55
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT02-R002: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "PVT02-R002"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT02-002",
+      "title": "HDFC add crisis evidence only",
+      "scholarship_id": "PVT02",
+      "base_profile": {
+        "citizenship": "Indian",
+        "previous_qualifying_marks": 70,
+        "family_income": 200000,
+        "education_level": "Undergraduate",
+        "personal_or_family_crisis": false
+      },
+      "temporary_mutation": {
+        "personal_or_family_crisis": true
+      },
+      "expected_before_eligibility": "ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT02-R005 preference: false -> true"
+      ],
+      "expected_explanation": "The crisis field changes preference, not core eligibility.",
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "PVT02-R005"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT03-001",
+      "title": "Reliance UG income moves below strict ₹15 lakh cap",
+      "scholarship_id": "PVT03",
+      "base_profile": {
+        "citizenship": "resident Indian citizen",
+        "household_income": 1500000,
+        "current_year_of_study": "first_year_UG",
+        "course_stream": "any_subject_stream",
+        "course_mode": "regular_full_time",
+        "class_12_marks": 80,
+        "aptitude_test": "attempted"
+      },
+      "temporary_mutation": {
+        "household_income": 1499999
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT03-R002: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "PVT03-R002"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT03-002",
+      "title": "Reliance UG switch from online to regular full-time",
+      "scholarship_id": "PVT03",
+      "base_profile": {
+        "citizenship": "resident Indian citizen",
+        "household_income": 500000,
+        "current_year_of_study": "first_year_UG",
+        "course_stream": "any_subject_stream",
+        "course_mode": "online",
+        "class_12_marks": 80,
+        "aptitude_test": "attempted"
+      },
+      "temporary_mutation": {
+        "course_mode": "regular_full_time"
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT03-R005: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "PVT03-R005"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT04-001",
+      "title": "Reliance PG GATE rises to 550",
+      "scholarship_id": "PVT04",
+      "base_profile": {
+        "citizenship": "resident Indian citizen",
+        "current_year_of_study": "first_year_PG",
+        "course_mode": "regular_full_time",
+        "eligible_programme": "Computer Science",
+        "GATE_score": 549
+      },
+      "temporary_mutation": {
+        "GATE_score": 550
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT04-R005 OR path: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "PVT04-R005"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT04-002",
+      "title": "Reliance PG satisfy CGPA alternative",
+      "scholarship_id": "PVT04",
+      "base_profile": {
+        "citizenship": "resident Indian citizen",
+        "current_year_of_study": "first_year_PG",
+        "course_mode": "regular_full_time",
+        "eligible_programme": "Computer Science",
+        "GATE_score": 500,
+        "UG_CGPA": 7.4
+      },
+      "temporary_mutation": {
+        "UG_CGPA": 7.5
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT04-R006 OR path: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "PVT04-R006"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT05-001",
+      "title": "Kotak marks rise to 75%",
+      "scholarship_id": "PVT05",
+      "base_profile": {
+        "gender": "female",
+        "current_year_of_study": "first_year",
+        "class_12_marks": 74.9,
+        "family_income": 500000,
+        "course": "Engineering",
+        "employee_child_exclusion": "none"
+      },
+      "temporary_mutation": {
+        "class_12_marks": 75
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT05-R003: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED",
+        "CURRENT_OFFICIAL_RULE_PAGE_NOT_FOUND"
+      ],
+      "source_rule_refs": [
+        "PVT05-R003"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT06-001",
+      "title": "Panasonic move to IIT first year",
+      "scholarship_id": "PVT06",
+      "base_profile": {
+        "current_year_of_study": "first_year",
+        "course": "B.Tech",
+        "institution_type": "non-IIT"
+      },
+      "temporary_mutation": {
+        "institution_type": "IIT"
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "NEEDS_MORE_INFORMATION",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT06-R003: fail -> pass",
+        "PVT06-R004 evidence gate remains"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "PVT06-R003",
+        "PVT06-R004"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT07-001",
+      "title": "Bharti family income moves under official ₹8 lakh cap",
+      "scholarship_id": "PVT07",
+      "base_profile": {
+        "current_year_of_study": "first_year",
+        "institution_rank_group": "top_50_NIRF_engineering",
+        "course": "Computer Science",
+        "course_duration": "4-year engineering",
+        "family_income": 850000
+      },
+      "temporary_mutation": {
+        "family_income": 800000
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "official income rule: fail -> pass"
+      ],
+      "expected_explanation": "Dataset 7 official evidence should be reconciled into Dataset 2 before production.",
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED",
+        "DATASET2_RECONCILIATION_REQUIRED"
+      ],
+      "source_rule_refs": [],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT08-001",
+      "title": "LIC income falls to exact maximum",
+      "scholarship_id": "PVT08",
+      "base_profile": {
+        "qualifying_marks": 70,
+        "family_income": 450001,
+        "current_year_of_study": "first_year_of_eligible_course"
+      },
+      "temporary_mutation": {
+        "family_income": 450000
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT08-R002: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "PVT08-R002"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT08-002",
+      "title": "LIC marks rise to 60%",
+      "scholarship_id": "PVT08",
+      "base_profile": {
+        "qualifying_marks": 59.9,
+        "family_income": 300000,
+        "current_year_of_study": "first_year_of_eligible_course"
+      },
+      "temporary_mutation": {
+        "qualifying_marks": 60
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT08-R001: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED"
+      ],
+      "source_rule_refs": [
+        "PVT08-R001"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT09-001",
+      "title": "L&T satisfy CGPA alternative",
+      "scholarship_id": "PVT09",
+      "base_profile": {
+        "current_academic_stage": "final_year_BE_BTech",
+        "branch": "Civil Engineering",
+        "marks_percent": 65,
+        "cgpa_10": 6.9
+      },
+      "temporary_mutation": {
+        "cgpa_10": 7.0
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "PVT09-R004 OR path: fail -> pass"
+      ],
+      "expected_explanation": null,
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED",
+        "CURRENT_OFFICIAL_INTAKE_RULES_PENDING"
+      ],
+      "source_rule_refs": [
+        "PVT09-R004"
+      ],
+      "notes": null
+    },
+    {
+      "case_id": "WHATIF-PVT10-001",
+      "title": "Santoor change schooling background to official eligible path",
+      "scholarship_id": "PVT10",
+      "base_profile": {
+        "gender": "female",
+        "class10_school": "private school",
+        "class12_school": "government junior college",
+        "class12_year": "2025-26",
+        "UG_start": "2026-27"
+      },
+      "temporary_mutation": {
+        "class10_school": "local government school"
+      },
+      "expected_before_eligibility": "NOT_ELIGIBLE",
+      "expected_after_eligibility": "ELIGIBLE",
+      "expected_application_status_before": null,
+      "expected_application_status_after": null,
+      "changed_rule_results": [
+        "official schooling-background rule: fail -> pass"
+      ],
+      "expected_explanation": "This uses current official Santoor programme evidence; the obsolete stored course-duration rule should not drive the result.",
+      "expected_flags": [
+        "SIMULATION_ONLY",
+        "PROFILE_UNCHANGED",
+        "USE_CURRENT_OFFICIAL_SOURCE"
+      ],
+      "source_rule_refs": [],
+      "notes": null
+    }
+  ]
+}

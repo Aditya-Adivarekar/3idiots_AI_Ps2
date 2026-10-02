@@ -1,0 +1,2318 @@
+{
+  "metadata": {
+    "dataset_name": "Dataset 5.2 - P0 Hardened Evidence / Source Dataset",
+    "version": "1.2",
+    "generated_on": "2026-10-01",
+    "purpose": "P0 evidence layer for exact citations. Combines Dataset 5 registry with newly captured official page/clause or official webpage-section evidence.",
+    "evidence_levels": {
+      "4": "VERIFIED_OFFICIAL_EXACT_CLAUSE — official PDF + exact page + clause/section",
+      "3": "VERIFIED_OFFICIAL_SECTION — official PDF + exact page/section, no discrete clause",
+      "2": "VERIFIED_OFFICIAL_WEBPAGE — official live page + exact named section",
+      "1": "VERIFIED_SECONDARY — current credible/authorized secondary source",
+      "0": "UNVERIFIED / evidence gap"
+    },
+    "production_rule": "Prefer Level 4/3 for final rule verdicts. Level 2 is acceptable for live provider webpages when no PDF exists. Level 1 should not be the sole authority for high-confidence final eligibility.",
+    "hardened_records": 28,
+    "coverage": [
+      {
+        "scholarship_id": "GOV01",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "GOV02",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "GOV03",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "GOV04",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "GOV05",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "GOV06",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "GOV07",
+        "best_evidence_level": 4,
+        "hardened_evidence_count": 2,
+        "status": "GREEN_EXACT_PDF_CLAUSE"
+      },
+      {
+        "scholarship_id": "GOV08",
+        "best_evidence_level": 4,
+        "hardened_evidence_count": 2,
+        "status": "GREEN_EXACT_PDF_CLAUSE"
+      },
+      {
+        "scholarship_id": "GOV09",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "GOV10",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "PVT01",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "PVT02",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "PVT03",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 2,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "PVT04",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "PVT05",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "PVT06",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "PVT07",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 2,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      },
+      {
+        "scholarship_id": "PVT08",
+        "best_evidence_level": 4,
+        "hardened_evidence_count": 4,
+        "status": "GREEN_EXACT_PDF_CLAUSE"
+      },
+      {
+        "scholarship_id": "PVT09",
+        "best_evidence_level": 3,
+        "hardened_evidence_count": 1,
+        "status": "GREEN_OFFICIAL_PDF_SECTION"
+      },
+      {
+        "scholarship_id": "PVT10",
+        "best_evidence_level": 2,
+        "hardened_evidence_count": 2,
+        "status": "GREEN_OFFICIAL_WEB_SECTION"
+      }
+    ],
+    "p0_remaining": [
+      {
+        "scholarship_id": "GOV01",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "GOV02",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "GOV03",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "GOV04",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "GOV05",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "GOV06",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "GOV09",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "GOV10",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "PVT01",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "PVT02",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "PVT03",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "PVT04",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "PVT05",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "PVT06",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "PVT07",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      },
+      {
+        "scholarship_id": "PVT10",
+        "current_status": "GREEN_OFFICIAL_WEB_SECTION",
+        "next_action": "Capture official PDF and exact page/clause if provider/department publishes one; otherwise retain official webpage section as citation source."
+      }
+    ],
+    "summary": {
+      "level_4_exact_pdf_clause": 3,
+      "level_3_or_better_official_pdf": 4,
+      "level_2_or_better_official_source": 20,
+      "secondary_only_or_unverified": 0
+    }
+  },
+  "baseline_source_registry": [
+    {
+      "source_id": "SRC001",
+      "title": "National Scholarship Portal – All Scholarships",
+      "url": "https://scholarships.gov.in/All-Scholarships",
+      "source_type": "official_portal",
+      "organization": "Government of India / NSP",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "Live 2026-27 scheme list with opening/application/verification dates and links to Specifications/FAQ."
+    },
+    {
+      "source_id": "SRC002",
+      "title": "National Scholarship Portal – Student Announcements",
+      "url": "https://scholarships.gov.in/student-announcements",
+      "source_type": "official_portal",
+      "organization": "Government of India / NSP",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "Current portal-level instructions including OTR/UDID related requirements."
+    },
+    {
+      "source_id": "SRC003",
+      "title": "AICTE Swanath Scholarship – myScheme",
+      "url": "https://www.myscheme.gov.in/schemes/aicte-ssss",
+      "source_type": "official_scheme_portal",
+      "organization": "Government of India / myScheme",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "Detailed documents by Swanath category."
+    },
+    {
+      "source_id": "SRC004",
+      "title": "DEPwD – Post Matric Scholarship for Students with Disabilities",
+      "url": "https://depwd.gov.in/en/scholarship-post-matric/",
+      "source_type": "official_department",
+      "organization": "Department of Empowerment of Persons with Disabilities",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": "Current eligibility summary, benefit structure and application guidance."
+    },
+    {
+      "source_id": "SRC005",
+      "title": "Maharashtra DEPwD – Post-matric Scholarship for Students with Disabilities",
+      "url": "https://depwd.maharashtra.gov.in/en/scheme/2-post-matric-scholarship-for-students-with-disabilities/",
+      "source_type": "official_state_department",
+      "organization": "Department of Empowerment of Persons with Disabilities, Maharashtra",
+      "academic_year": "current reference",
+      "publication_date": "2023-12-01",
+      "retrieved_date": "2026-10-01",
+      "verification_status": "official_reference",
+      "notes": "Detailed general conditions and course-group benefit structure; not a substitute for current central 2026-27 specification."
+    },
+    {
+      "source_id": "SRC006",
+      "title": "Reliance Foundation Scholarships 2026-27 – Official Announcement",
+      "url": "https://www.reliancefoundation.org/media/media-release/Reliance_Foundation_Scholarships_2026-27",
+      "source_type": "official_provider",
+      "organization": "Reliance Foundation",
+      "academic_year": "2026-27",
+      "publication_date": "2026-08-14",
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "source_id": "SRC007",
+      "title": "Reliance Foundation Scholarships – Official Portal",
+      "url": "https://scholarships.reliancefoundation.org/",
+      "source_type": "official_provider",
+      "organization": "Reliance Foundation",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "source_id": "SRC008",
+      "title": "LIC Golden Jubilee Foundation",
+      "url": "https://www.licindia.in/en/web/guest/golden-jubilee-foundation",
+      "source_type": "official_provider",
+      "organization": "LIC Golden Jubilee Foundation",
+      "academic_year": "2026",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "source_id": "SRC009",
+      "title": "PIB – Applications Invited for Educational Scholarships for Children of Beedi, Cine and Mine Workers 2026-27",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2271267&lang=2&reg=48",
+      "source_type": "official_press_release",
+      "organization": "Press Information Bureau / Ministry of Labour & Employment",
+      "academic_year": "2026-27",
+      "publication_date": "2026-06-10",
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "source_id": "SRC010",
+      "title": "PIB – Financial Assistance for Education to Wards of Beedi/Cine/IOMC/LSDM Workers",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290429&lang=2&reg=48",
+      "source_type": "official_press_release",
+      "organization": "Press Information Bureau / Ministry of Labour & Employment",
+      "academic_year": "2026-27",
+      "publication_date": "2026-07-28",
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "source_id": "SRC011",
+      "title": "Bharti Airtel Scholarship – Official",
+      "url": "https://www.bhartiairtelfoundation.org/bharti-airtel-scholarship",
+      "source_type": "official_provider",
+      "organization": "Bharti Airtel Foundation",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "source_id": "SRC012",
+      "title": "HDFC Bank Parivartan ECSS Programme",
+      "url": "https://www.parivartanecss.com/",
+      "source_type": "program_site",
+      "organization": "HDFC Bank / Parivartan ECSS",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "verified_current",
+      "notes": null
+    },
+    {
+      "source_id": "SRC013",
+      "title": "Tata Capital – Education / Pankh programme",
+      "url": "https://www.tatacapital.com/sustainability/education.html",
+      "source_type": "official_provider",
+      "organization": "Tata Capital",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "program_verified_current",
+      "notes": null
+    },
+    {
+      "source_id": "SRC014",
+      "title": "Panasonic Corporate Citizenship Activities",
+      "url": "https://www.panasonic.com/in/corporate/panasonic-group-corporate-citizenship-activities.html",
+      "source_type": "official_provider",
+      "organization": "Panasonic Life Solutions India",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "program_verified_current",
+      "notes": null
+    },
+    {
+      "source_id": "SRC015",
+      "title": "L&T Integrated Report 2025-26",
+      "url": "https://investors.larsentoubro.com/pdf/2026/Integrated%20Report%202025-26.pdf",
+      "source_type": "official_corporate_report",
+      "organization": "Larsen & Toubro",
+      "academic_year": "2025-26 / current programme reference",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "official_program_reference",
+      "notes": null
+    },
+    {
+      "source_id": "SRC101",
+      "title": "AICTE Pragati Scholarship 2026-27 – Shiksha",
+      "url": "https://www.shiksha.com/college/articles/aicte-pragati-scholarship-2026-27-eligibility-amount-documents-and-how-to-apply-blogId-243317",
+      "source_type": "current_secondary",
+      "organization": "Shiksha",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "current_secondary",
+      "notes": null
+    },
+    {
+      "source_id": "SRC102",
+      "title": "AICTE Scholarship 2026-27 – EnggPrep",
+      "url": "https://enggprep.in/aicte-scholarship-2026-27/",
+      "source_type": "current_secondary",
+      "organization": "EnggPrep",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "current_secondary",
+      "notes": null
+    },
+    {
+      "source_id": "SRC103",
+      "title": "PM YASASVI / Scholarships – IISER Tirupati",
+      "url": "https://www.iisertirupati.ac.in/scholarships/",
+      "source_type": "current_institutional",
+      "organization": "IISER Tirupati",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "current_institutional",
+      "notes": null
+    },
+    {
+      "source_id": "SRC104",
+      "title": "Top Class Education Scholarship for SC Students 2026-27",
+      "url": "https://dekhocampus.com/news/central-sector-scheme-of-top-class-education-for-sc-students-2026-27-qs-ranked-college-eligibility-a",
+      "source_type": "current_secondary",
+      "organization": "DekhoCampus",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "current_secondary",
+      "notes": null
+    },
+    {
+      "source_id": "SRC105",
+      "title": "Tata Capital Pankh Scholarship 2026-27 – Shiksha",
+      "url": "https://www.shiksha.com/college/articles/tata-capital-pankh-scholarship-2026-27-check-last-date-eligibility-amount-and-apply-online-blogId-242415",
+      "source_type": "current_secondary",
+      "organization": "Shiksha",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "current_secondary",
+      "notes": null
+    },
+    {
+      "source_id": "SRC106",
+      "title": "Kotak Kanya Scholarship – current listing",
+      "url": "https://www.buddy4study.com/article/scholarships-for-indian-girls-and-women",
+      "source_type": "authorized_or_secondary_listing",
+      "organization": "Buddy4Study",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "current_secondary",
+      "notes": null
+    },
+    {
+      "source_id": "SRC107",
+      "title": "Panasonic Ratti Chhatr Scholarship – current listing",
+      "url": "https://www.buddy4study.com/article/ratti-chhatr-scholarship",
+      "source_type": "authorized_or_secondary_listing",
+      "organization": "Buddy4Study",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "current_secondary",
+      "notes": null
+    },
+    {
+      "source_id": "SRC108",
+      "title": "L&T Build India Scholarship – current listing",
+      "url": "https://www.buddy4study.com/scholarship/l-t-build-india-scholarship",
+      "source_type": "authorized_or_secondary_listing",
+      "organization": "Buddy4Study",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "current_secondary",
+      "notes": null
+    },
+    {
+      "source_id": "SRC109",
+      "title": "Santoor Women Scholarship 2026-27 – current listing",
+      "url": "https://www.apbadi.net/2026/09/santoor-women-2026-27-scholarship-apply.html",
+      "source_type": "current_secondary",
+      "organization": "AP Badi",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "partial_current_secondary",
+      "notes": null
+    },
+    {
+      "source_id": "SRC110",
+      "title": "Reliance Foundation Scholarship 2026-27 – Careers360",
+      "url": "https://school.careers360.com/articles/reliance-foundation-scholarship-2026-27",
+      "source_type": "current_secondary",
+      "organization": "Careers360",
+      "academic_year": "2026-27",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification_status": "current_secondary",
+      "notes": null
+    }
+  ],
+  "baseline_evidence": [
+    {
+      "evidence_id": "E-GOV01-001",
+      "scholarship_id": "GOV01",
+      "source_id": "SRC001",
+      "evidence_category": "application_dates",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": "PM-USP CSSS listing",
+      "clause": null,
+      "evidence_summary": "NSP lists the current 2026-27 CSSS renewal cycle and its application/verification timeline.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV01-002",
+      "scholarship_id": "GOV01",
+      "source_id": "SRC001",
+      "evidence_category": "scheme_classification",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": "PM-USP CSSS listing",
+      "clause": null,
+      "evidence_summary": "NSP classifies PM-USP CSSS as a merit-based scheme.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV01-003",
+      "scholarship_id": "GOV01",
+      "source_id": "SRC001",
+      "evidence_category": "eligibility_detail_gap",
+      "evidence_type": "evidence_gap",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Detailed eligibility should be taken from the linked current Specifications/FAQ rather than inferred from the listing.",
+      "exact_excerpt_short": null,
+      "verification_status": "requires_clause_extraction",
+      "notes": null,
+      "evidence_level": 0
+    },
+    {
+      "evidence_id": "E-GOV02-001",
+      "scholarship_id": "GOV02",
+      "source_id": "SRC001",
+      "evidence_category": "application_dates",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": "AICTE Pragati Technical Degree",
+      "clause": null,
+      "evidence_summary": "NSP lists AICTE Pragati Technical Degree as open from 1 June 2026 through 31 October 2026.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV02-002",
+      "scholarship_id": "GOV02",
+      "source_id": "SRC101",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current 2026-27 guidance supports female-student, AICTE-approved institution, entry-year and income conditions.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-GOV02-003",
+      "scholarship_id": "GOV02",
+      "source_id": "SRC101",
+      "evidence_category": "documents",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current guidance lists identity, bank, academic, income, bonafide and declaration documents for Pragati.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-GOV03-001",
+      "scholarship_id": "GOV03",
+      "source_id": "SRC001",
+      "evidence_category": "application_dates",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": "AICTE Saksham Technical Degree",
+      "clause": null,
+      "evidence_summary": "NSP lists AICTE Saksham Technical Degree as open from 1 June 2026 through 31 October 2026.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV03-002",
+      "scholarship_id": "GOV03",
+      "source_id": "SRC102",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current guidance supports benchmark disability, AICTE-approved study, entry-year and family-income rules.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-GOV03-003",
+      "scholarship_id": "GOV03",
+      "source_id": "SRC002",
+      "evidence_category": "portal_requirement",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "NSP requires disability applicants to complete the relevant UDID-consent step before submission.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV04-001",
+      "scholarship_id": "GOV04",
+      "source_id": "SRC001",
+      "evidence_category": "application_dates",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": "AICTE Swanath Technical Degree",
+      "clause": null,
+      "evidence_summary": "NSP lists AICTE Swanath Technical Degree as open from 1 June 2026 through 31 October 2026.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV04-002",
+      "scholarship_id": "GOV04",
+      "source_id": "SRC003",
+      "evidence_category": "documents",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Official myScheme page gives different document sets for orphan, COVID-19-parent-death and ward-of-martyr categories.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV04-003",
+      "scholarship_id": "GOV04",
+      "source_id": "SRC003",
+      "evidence_category": "special_category",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Swanath category proof is evidence-specific: orphan/death, COVID-19 death, or martyr-related documentation.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV05-001",
+      "scholarship_id": "GOV05",
+      "source_id": "SRC103",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current institutional source supports OBC/EBC/DNT category, income ceiling and notified-institution conditions.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_institutional",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV05-002",
+      "scholarship_id": "GOV05",
+      "source_id": "SRC001",
+      "evidence_category": "application_dates",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "NSP current scholarship listing is the authoritative timeline source for the current application cycle.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV05-003",
+      "scholarship_id": "GOV05",
+      "source_id": "SRC001",
+      "evidence_category": "eligibility_detail_gap",
+      "evidence_type": "evidence_gap",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Exact clause-level PM YASASVI college rules should be extracted from the current NSP specification.",
+      "exact_excerpt_short": null,
+      "verification_status": "requires_clause_extraction",
+      "notes": null,
+      "evidence_level": 0
+    },
+    {
+      "evidence_id": "E-GOV06-001",
+      "scholarship_id": "GOV06",
+      "source_id": "SRC104",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current 2026-27 secondary guidance supports SC category, family-income ceiling and notified-institution rules.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-GOV06-002",
+      "scholarship_id": "GOV06",
+      "source_id": "SRC001",
+      "evidence_category": "application_dates",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "NSP provides the current application and verification timeline for the Top Class SC scheme.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV06-003",
+      "scholarship_id": "GOV06",
+      "source_id": "SRC001",
+      "evidence_category": "eligibility_detail_gap",
+      "evidence_type": "evidence_gap",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Exact current fee/document and selection clauses should come from the linked official scheme specification.",
+      "exact_excerpt_short": null,
+      "verification_status": "requires_clause_extraction",
+      "notes": null,
+      "evidence_level": 0
+    },
+    {
+      "evidence_id": "E-GOV07-001",
+      "scholarship_id": "GOV07",
+      "source_id": "SRC004",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "DEPwD states the central Post-Matric scheme is for Indian students with benchmark disability of at least 40%.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV07-002",
+      "scholarship_id": "GOV07",
+      "source_id": "SRC004",
+      "evidence_category": "income",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "DEPwD states family income up to INR 2.5 lakh per year.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV07-003",
+      "scholarship_id": "GOV07",
+      "source_id": "SRC004",
+      "evidence_category": "documents",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "DEPwD identifies UDID Card and Aadhaar Card as required items.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV07-004",
+      "scholarship_id": "GOV07",
+      "source_id": "SRC005",
+      "evidence_category": "additional_conditions",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Official state-hosted central-scheme reference details one-year-per-class and no-other-scholarship conditions.",
+      "exact_excerpt_short": null,
+      "verification_status": "official_reference",
+      "notes": null,
+      "evidence_level": 0
+    },
+    {
+      "evidence_id": "E-GOV08-001",
+      "scholarship_id": "GOV08",
+      "source_id": "SRC001",
+      "evidence_category": "application_dates",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "NSP provides the current 2026-27 listing and timeline for Top Class Education for Students with Disabilities.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV08-002",
+      "scholarship_id": "GOV08",
+      "source_id": "SRC002",
+      "evidence_category": "portal_requirement",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "UDID consent is a portal-level prerequisite for disability applicants.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV08-003",
+      "scholarship_id": "GOV08",
+      "source_id": "SRC001",
+      "evidence_category": "eligibility_detail_gap",
+      "evidence_type": "evidence_gap",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Exact current Top Class PwD income/course/document clauses must be extracted from the scheme specification.",
+      "exact_excerpt_short": null,
+      "verification_status": "requires_clause_extraction",
+      "notes": null,
+      "evidence_level": 0
+    },
+    {
+      "evidence_id": "E-GOV09-001",
+      "scholarship_id": "GOV09",
+      "source_id": "SRC001",
+      "evidence_category": "scheme_identity",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "NSP lists the National Scholarship for Post Graduate Studies under current scholarship listings.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV09-002",
+      "scholarship_id": "GOV09",
+      "source_id": "SRC001",
+      "evidence_category": "application_dates",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current NSP listing is the authoritative source for opening and student-application dates.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV09-003",
+      "scholarship_id": "GOV09",
+      "source_id": "SRC001",
+      "evidence_category": "eligibility_detail_gap",
+      "evidence_type": "evidence_gap",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Detailed UGC academic/age/quota conditions should be extracted from the current official specification.",
+      "exact_excerpt_short": null,
+      "verification_status": "requires_clause_extraction",
+      "notes": null,
+      "evidence_level": 0
+    },
+    {
+      "evidence_id": "E-GOV10-001",
+      "scholarship_id": "GOV10",
+      "source_id": "SRC009",
+      "evidence_category": "application_dates",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "PIB states post-matric applications for worker wards can be submitted through NSP until 31 October 2026.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV10-002",
+      "scholarship_id": "GOV10",
+      "source_id": "SRC009",
+      "evidence_category": "benefits",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "PIB gives course-wise annual scholarship amounts, including higher support for professional courses.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-GOV10-003",
+      "scholarship_id": "GOV10",
+      "source_id": "SRC010",
+      "evidence_category": "scheme_scope",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "PIB confirms support for wards of Beedi, Cine, IOMC/LSDM and related eligible worker groups.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT01-001",
+      "scholarship_id": "PVT01",
+      "source_id": "SRC013",
+      "evidence_category": "programme_identity",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Tata Capital officially describes education support under its CSR work, including the Pankh scholarship programme.",
+      "exact_excerpt_short": null,
+      "verification_status": "program_verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT01-002",
+      "scholarship_id": "PVT01",
+      "source_id": "SRC105",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current 2026-27 listing supports the marks, income and education-level rules stored in Dataset 2.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-PVT01-003",
+      "scholarship_id": "PVT01",
+      "source_id": "SRC105",
+      "evidence_category": "documents",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current listing supports the identity, income, admission, fee, bank and marksheet requirements stored in Dataset 3.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-PVT02-001",
+      "scholarship_id": "PVT02",
+      "source_id": "SRC012",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current programme site supports Indian nationality, academic threshold and family-income criteria.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT02-002",
+      "scholarship_id": "PVT02",
+      "source_id": "SRC012",
+      "evidence_category": "documents",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current programme site lists identity, academic, admission, bank and income evidence, plus crisis proof when applicable.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT02-003",
+      "scholarship_id": "PVT02",
+      "source_id": "SRC012",
+      "evidence_category": "preference",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Personal/family crisis functions as a preference factor rather than a universal eligibility rule.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT03-001",
+      "scholarship_id": "PVT03",
+      "source_id": "SRC006",
+      "evidence_category": "programme_identity",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Reliance Foundation officially opened 2026-27 applications for first-year undergraduate students across India.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT03-002",
+      "scholarship_id": "PVT03",
+      "source_id": "SRC006",
+      "evidence_category": "benefits",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Official announcement states UG scholarships provide support up to INR 2 lakh over the degree.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT03-003",
+      "scholarship_id": "PVT03",
+      "source_id": "SRC007",
+      "evidence_category": "programme_scope",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Official portal says undergraduate scholarships support college education in any stream.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT03-004",
+      "scholarship_id": "PVT03",
+      "source_id": "SRC110",
+      "evidence_category": "eligibility_detail",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current application guidance provides additional thresholds such as Class 12 marks and application-process requirements.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-PVT04-001",
+      "scholarship_id": "PVT04",
+      "source_id": "SRC006",
+      "evidence_category": "programme_identity",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Reliance Foundation officially opened 2026-27 postgraduate scholarships for first-year PG students.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT04-002",
+      "scholarship_id": "PVT04",
+      "source_id": "SRC006",
+      "evidence_category": "benefits",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Official announcement states PG support can reach INR 6 lakh over the degree.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT04-003",
+      "scholarship_id": "PVT04",
+      "source_id": "SRC006",
+      "evidence_category": "programme_scope",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Official announcement says PG awards target Engineering, Technology, Energy and Life Sciences fields.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT05-001",
+      "scholarship_id": "PVT05",
+      "source_id": "SRC106",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current listing supports female, first-year, marks, income and selected-professional-course conditions.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-PVT05-002",
+      "scholarship_id": "PVT05",
+      "source_id": "SRC106",
+      "evidence_category": "source_gap",
+      "evidence_type": "evidence_gap",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Exact 2026-27 provider guideline URL should be captured before using this record as sole production evidence.",
+      "exact_excerpt_short": null,
+      "verification_status": "requires_official_capture",
+      "notes": null,
+      "evidence_level": 0
+    },
+    {
+      "evidence_id": "E-PVT06-001",
+      "scholarship_id": "PVT06",
+      "source_id": "SRC014",
+      "evidence_category": "programme_identity",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Panasonic officially confirms its scholarship/corporate-citizenship education programme.",
+      "exact_excerpt_short": null,
+      "verification_status": "program_verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT06-002",
+      "scholarship_id": "PVT06",
+      "source_id": "SRC107",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current programme listing supports first-year B.E./B.Tech and IIT-specific eligibility used in Dataset 2.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-PVT06-003",
+      "scholarship_id": "PVT06",
+      "source_id": "SRC107",
+      "evidence_category": "documents",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current listing supports photo, marksheet, ID, admission, fee, income and bank document requirements.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-PVT07-001",
+      "scholarship_id": "PVT07",
+      "source_id": "SRC011",
+      "evidence_category": "programme_identity",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Bharti Airtel Foundation official page states applications are open for the 2026-27 scholarship cycle.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT07-002",
+      "scholarship_id": "PVT07",
+      "source_id": "SRC011",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Official page lists first-year study, top-50 NIRF Engineering institutions and specified future-tech disciplines.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT07-003",
+      "scholarship_id": "PVT07",
+      "source_id": "SRC011",
+      "evidence_category": "documents",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Official page provides detailed identity, admission, academic, income, bank and SOP requirements.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT08-001",
+      "scholarship_id": "PVT08",
+      "source_id": "SRC008",
+      "evidence_category": "programme_identity",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "LIC official Golden Jubilee page provides a 2026 scholarship application link and programme instructions.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT08-002",
+      "scholarship_id": "PVT08",
+      "source_id": "SRC008",
+      "evidence_category": "selection_process",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "LIC states applications are processed in preliminary and final phases.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT08-003",
+      "scholarship_id": "PVT08",
+      "source_id": "SRC008",
+      "evidence_category": "documents",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "LIC says candidates passing preliminary assessment will be contacted to provide documents for final evaluation.",
+      "exact_excerpt_short": null,
+      "verification_status": "verified_current",
+      "notes": null,
+      "evidence_level": 2
+    },
+    {
+      "evidence_id": "E-PVT08-004",
+      "scholarship_id": "PVT08",
+      "source_id": "SRC008",
+      "evidence_category": "eligibility_detail_gap",
+      "evidence_type": "evidence_gap",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Exact 2026 income/marks/document clauses should be captured from the linked 2026 scheme PDF before production.",
+      "exact_excerpt_short": null,
+      "verification_status": "requires_clause_capture",
+      "notes": null,
+      "evidence_level": 0
+    },
+    {
+      "evidence_id": "E-PVT09-001",
+      "scholarship_id": "PVT09",
+      "source_id": "SRC015",
+      "evidence_category": "programme_identity",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "L&T official corporate reporting confirms the Build India Scholarship programme and its continuing industry-academia model.",
+      "exact_excerpt_short": null,
+      "verification_status": "official_program_reference",
+      "notes": null,
+      "evidence_level": 0
+    },
+    {
+      "evidence_id": "E-PVT09-002",
+      "scholarship_id": "PVT09",
+      "source_id": "SRC108",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current intake listing supports final-year status, Civil/Electrical branches and academic threshold alternatives.",
+      "exact_excerpt_short": null,
+      "verification_status": "current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-PVT09-003",
+      "scholarship_id": "PVT09",
+      "source_id": "SRC108",
+      "evidence_category": "source_gap",
+      "evidence_type": "evidence_gap",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Exact live 2026 L&T application-upload fields should be captured from the current intake portal.",
+      "exact_excerpt_short": null,
+      "verification_status": "requires_official_intake_capture",
+      "notes": null,
+      "evidence_level": 0
+    },
+    {
+      "evidence_id": "E-PVT10-001",
+      "scholarship_id": "PVT10",
+      "source_id": "SRC109",
+      "evidence_category": "eligibility",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current 2026-27 listing supports women-student and minimum course-duration conditions.",
+      "exact_excerpt_short": null,
+      "verification_status": "partial_current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-PVT10-002",
+      "scholarship_id": "PVT10",
+      "source_id": "SRC109",
+      "evidence_category": "documents",
+      "evidence_type": "rule_support",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Current listing provides photo, bank, identity and Class 10/12 document requirements.",
+      "exact_excerpt_short": null,
+      "verification_status": "partial_current_secondary",
+      "notes": null,
+      "evidence_level": 1
+    },
+    {
+      "evidence_id": "E-PVT10-003",
+      "scholarship_id": "PVT10",
+      "source_id": "SRC109",
+      "evidence_category": "source_gap",
+      "evidence_type": "evidence_gap",
+      "document_name": null,
+      "page": null,
+      "section": null,
+      "clause": null,
+      "evidence_summary": "Official 2026-27 programme rules should be captured before this scheme is used as authoritative training data.",
+      "exact_excerpt_short": null,
+      "verification_status": "requires_official_capture",
+      "notes": null,
+      "evidence_level": 0
+    }
+  ],
+  "hardened_evidence": [
+    {
+      "evidence_id": "HARD-PVT08-001",
+      "scholarship_id": "PVT08",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [
+        "PVT08-R001",
+        "PVT08-R002",
+        "PVT08-R003"
+      ],
+      "source": {
+        "title": "LIC Golden Jubilee Scholarship Scheme 2026",
+        "url": "https://www.licindia.in/documents/d/guest/golden-jubilee-scholarship-scheme-2026",
+        "source_type": "official_pdf",
+        "publication_date": "2026"
+      },
+      "locator_type": "page_clause",
+      "locator": {
+        "pdf_page": 1,
+        "printed_page": 1,
+        "section": "3. ELIGIBILITY",
+        "clause": "[A] General Scholarship, items 1-3"
+      },
+      "evidence_text": "Class XII/equivalent candidates need at least 60% marks, first-year admission in 2026-27 to an eligible course, and parents/guardian annual income not exceeding ₹4,50,000.",
+      "evidence_summary": "Exact current 2026 General Scholarship eligibility.",
+      "normalized_fact": {
+        "marks_operator": ">=",
+        "marks": 60,
+        "income_operator": "<=",
+        "income": 450000,
+        "admission_year": "2026-27"
+      },
+      "evidence_level": 4,
+      "verification_status": "VERIFIED_OFFICIAL_EXACT_CLAUSE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT08-002",
+      "scholarship_id": "PVT08",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [
+        "PVT08-R001",
+        "PVT08-R002"
+      ],
+      "source": {
+        "title": "LIC Golden Jubilee Scholarship Scheme 2026",
+        "url": "https://www.licindia.in/documents/d/guest/golden-jubilee-scholarship-scheme-2026",
+        "source_type": "official_pdf",
+        "publication_date": "2026"
+      },
+      "locator_type": "page_clause",
+      "locator": {
+        "pdf_page": 3,
+        "printed_page": 3,
+        "section": "8. CONDITIONS FOR SCHOLARSHIP",
+        "clause": "(ii), (vi), (vii)"
+      },
+      "evidence_text": "The scheme repeats the 60% and ₹4.5 lakh conditions, bars most concurrent non-government trust/institution scholarships, and permits specified engineering lateral-entry cases after diploma with at least 60%.",
+      "evidence_summary": "Current 2026 conditions, concurrent scholarship restriction, and lateral-entry exception.",
+      "normalized_fact": {
+        "marks_operator": ">=",
+        "marks": 60,
+        "income_operator": "<=",
+        "income": 450000,
+        "lateral_entry": "conditional_allowed"
+      },
+      "evidence_level": 4,
+      "verification_status": "VERIFIED_OFFICIAL_EXACT_CLAUSE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT08-003",
+      "scholarship_id": "PVT08",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "LIC Golden Jubilee Scholarship Scheme 2026",
+        "url": "https://www.licindia.in/documents/d/guest/golden-jubilee-scholarship-scheme-2026",
+        "source_type": "official_pdf",
+        "publication_date": "2026"
+      },
+      "locator_type": "page_clause",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 4,
+        "section": "8. CONDITIONS FOR SCHOLARSHIP",
+        "clause": "(xii)-(xvii)"
+      },
+      "evidence_text": "Renewal requires minimum course-specific marks, passing all subjects, and includes rules for grace marks, failed subjects, and one/two students per family.",
+      "evidence_summary": "Exact renewal and academic edge-case rules for LIC 2026.",
+      "normalized_fact": {
+        "renewal_rules": "course_specific",
+        "failed_subjects": "normally_disqualifying",
+        "family_limit": "normally_one_with_female_relaxation"
+      },
+      "evidence_level": 4,
+      "verification_status": "VERIFIED_OFFICIAL_EXACT_CLAUSE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT08-004",
+      "scholarship_id": "PVT08",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "LIC Golden Jubilee Scholarship Scheme 2026",
+        "url": "https://www.licindia.in/documents/d/guest/golden-jubilee-scholarship-scheme-2026",
+        "source_type": "official_pdf",
+        "publication_date": "2026"
+      },
+      "locator_type": "page_clause",
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 5,
+        "section": "8. CONDITIONS FOR SCHOLARSHIP",
+        "clause": "(xix)"
+      },
+      "evidence_text": "Income certificate must be issued by a competent State Revenue Authority and state annual gross income of both parents from all sources for the preceding financial year; a certificate valid for the previous financial year is acceptable.",
+      "evidence_summary": "Exact 2026 income-certificate issuer and validity requirement.",
+      "normalized_fact": {
+        "document": "Income Certificate",
+        "issuer": "competent State Revenue Authority",
+        "income_scope": "both parents, all sources",
+        "financial_year": "preceding; previous FY certificate accepted if valid"
+      },
+      "evidence_level": 4,
+      "verification_status": "VERIFIED_OFFICIAL_EXACT_CLAUSE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-GOV07-001",
+      "scholarship_id": "GOV07",
+      "academic_year": "current central guidance",
+      "supports_rule_ids": [
+        "GOV07-R001",
+        "GOV07-R004"
+      ],
+      "source": {
+        "title": "Revision of guidelines of the Central Sector Umbrella Scheme Scholarships for Students with Disabilities",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2025/09/202509111852335844.pdf",
+        "source_type": "official_pdf",
+        "publication_date": "2025-09-04"
+      },
+      "locator_type": "page_clause",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": 2,
+        "section": "Annexure-I",
+        "clause": "Para 2(ii)"
+      },
+      "evidence_text": "All scholarship components are open to students with benchmark disability of 40% or more; applicants must possess a Unique Disability Identity card (UDID) and Aadhaar Card.",
+      "evidence_summary": "Current central umbrella requirement for benchmark disability, UDID and Aadhaar.",
+      "normalized_fact": {
+        "disability_percentage_operator": ">=",
+        "disability_percentage": 40,
+        "UDID": "required",
+        "Aadhaar": "required"
+      },
+      "evidence_level": 4,
+      "verification_status": "VERIFIED_OFFICIAL_EXACT_CLAUSE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-GOV08-001",
+      "scholarship_id": "GOV08",
+      "academic_year": "current central guidance",
+      "supports_rule_ids": [
+        "GOV08-R001",
+        "GOV08-R003"
+      ],
+      "source": {
+        "title": "Revision of guidelines of the Central Sector Umbrella Scheme Scholarships for Students with Disabilities",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2025/09/202509111852335844.pdf",
+        "source_type": "official_pdf",
+        "publication_date": "2025-09-04"
+      },
+      "locator_type": "page_clause",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": 2,
+        "section": "Annexure-I",
+        "clause": "Para 2(ii)"
+      },
+      "evidence_text": "All scholarship components are open to students with benchmark disability of 40% or more; applicants must possess a Unique Disability Identity card (UDID) and Aadhaar Card.",
+      "evidence_summary": "Current central umbrella requirement for benchmark disability, UDID and Aadhaar.",
+      "normalized_fact": {
+        "disability_percentage_operator": ">=",
+        "disability_percentage": 40,
+        "UDID": "required",
+        "Aadhaar": "required"
+      },
+      "evidence_level": 4,
+      "verification_status": "VERIFIED_OFFICIAL_EXACT_CLAUSE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-GOV07-002",
+      "scholarship_id": "GOV07",
+      "academic_year": "current central guidance",
+      "supports_rule_ids": [
+        "GOV07-R003"
+      ],
+      "source": {
+        "title": "Revision of guidelines of the Central Sector Umbrella Scheme Scholarships for Students with Disabilities",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2025/09/202509111852335844.pdf",
+        "source_type": "official_pdf",
+        "publication_date": "2025-09-04"
+      },
+      "locator_type": "page_clause",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": 2,
+        "section": "Annexure-I",
+        "clause": "Para 1.5(ii)"
+      },
+      "evidence_text": "Post-matric Scholarship covers Class XI to Post-Graduate Degree/Diploma approved by a recognized body such as UGC, State/UT Government, NMC, RCI or AICTE.",
+      "evidence_summary": "Exact revised course-scope rule for Post-Matric PwD.",
+      "normalized_fact": {
+        "education_scope": "Class XI to PG Degree/Diploma",
+        "recognition": "recognized body required"
+      },
+      "evidence_level": 4,
+      "verification_status": "VERIFIED_OFFICIAL_EXACT_CLAUSE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-GOV08-002",
+      "scholarship_id": "GOV08",
+      "academic_year": "current central guidance",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "Revision of guidelines of the Central Sector Umbrella Scheme Scholarships for Students with Disabilities",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2025/09/202509111852335844.pdf",
+        "source_type": "official_pdf",
+        "publication_date": "2025-09-04"
+      },
+      "locator_type": "page_clause",
+      "locator": {
+        "pdf_page": 3,
+        "printed_page": 3,
+        "section": "Annexure-I",
+        "clause": "Para 6.2"
+      },
+      "evidence_text": "For Top Class Scholarship, the revised provision provides fixed first-year grants of ₹45,000 and ₹30,000 under the stated conditions, including non-availing of the same through ARJUN portal for the latter.",
+      "evidence_summary": "Exact revised Top Class financial-assistance clause.",
+      "normalized_fact": {
+        "top_class_grants": [
+          45000,
+          30000
+        ]
+      },
+      "evidence_level": 4,
+      "verification_status": "VERIFIED_OFFICIAL_EXACT_CLAUSE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT09-001",
+      "scholarship_id": "PVT09",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "L&T Integrated Annual Report 2025-26",
+        "url": "https://investors.larsentoubro.com/pdf/2026/Integrated%20Report%202025-26.pdf",
+        "source_type": "official_pdf",
+        "publication_date": "2025-26"
+      },
+      "locator_type": "page_section",
+      "locator": {
+        "pdf_page": 90,
+        "printed_page": 261,
+        "section": "Technical and Engineering Education Pathways"
+      },
+      "evidence_text": "The Build India Scholarship supports young engineers in pursuing M.Tech. in Construction Technology & Management, delivered with IIT Madras, IIT Delhi, NIT Trichy and NIT Surathkal.",
+      "evidence_summary": "Official confirmation of the Build India Scholarship programme, degree and partner institutions.",
+      "normalized_fact": {
+        "programme": "M.Tech Construction Technology & Management",
+        "partners": [
+          "IIT Madras",
+          "IIT Delhi",
+          "NIT Trichy",
+          "NIT Surathkal"
+        ]
+      },
+      "evidence_level": 3,
+      "verification_status": "VERIFIED_OFFICIAL_SECTION",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT07-001",
+      "scholarship_id": "PVT07",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [
+        "PVT07-R001",
+        "PVT07-R002",
+        "PVT07-R003"
+      ],
+      "source": {
+        "title": "Bharti Airtel Scholarship",
+        "url": "https://www.bhartiairtelfoundation.org/bharti-airtel-scholarship",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Eligibility"
+      },
+      "evidence_text": "Official page requires confirmed first-year admission in specified engineering/future-tech courses at a top-50 NIRF Engineering institution, family income not above ₹8 lakh, Indian citizenship/residency, and no other scholarship/grant for the same academic purpose supported by the Foundation.",
+      "evidence_summary": "Current 2026-27 official eligibility section.",
+      "normalized_fact": {
+        "income_operator": "<=",
+        "income": 800000,
+        "year": "first",
+        "institution": "top 50 NIRF Engineering",
+        "residency": "India"
+      },
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT07-002",
+      "scholarship_id": "PVT07",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "Bharti Airtel Scholarship",
+        "url": "https://www.bhartiairtelfoundation.org/bharti-airtel-scholarship",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Documents Required"
+      },
+      "evidence_text": "Official page lists identity proof, current-year admission proof, Class XII marksheet, entrance scorecard, income documents with six-month bank statements, applicant/parent/institution bank details, photo, achievements, applicable rent proof, and SOP.",
+      "evidence_summary": "Current official document checklist.",
+      "normalized_fact": {
+        "document_set": "official current webpage"
+      },
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT03-001",
+      "scholarship_id": "PVT03",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [
+        "PVT03-R003",
+        "PVT03-R005"
+      ],
+      "source": {
+        "title": "Reliance Foundation Scholarships 2026-27",
+        "url": "https://www.reliancefoundation.org/media/media-release/Reliance_Foundation_Scholarships_2026-27",
+        "source_type": "official_webpage",
+        "publication_date": "2026-08-14"
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Media Release, 14 August 2026"
+      },
+      "evidence_text": "Reliance Foundation opened 2026-27 applications for first-year full-time UG and PG students; 5,000 UG scholarships of up to ₹2 lakh and 100 PG scholarships of up to ₹6 lakh are offered.",
+      "evidence_summary": "Official 2026-27 programme scope and benefit confirmation.",
+      "normalized_fact": {
+        "UG_awards": 5000,
+        "UG_max": 200000,
+        "PG_awards": 100,
+        "PG_max": 600000
+      },
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT03-002",
+      "scholarship_id": "PVT03",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [
+        "PVT03-R001",
+        "PVT03-R002",
+        "PVT03-R003",
+        "PVT03-R005",
+        "PVT03-R006",
+        "PVT03-R007"
+      ],
+      "source": {
+        "title": "Reliance Foundation Undergraduate Scholarships",
+        "url": "https://www.scholarships.reliancefoundation.org/UG_Scholarship",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Eligibility Criteria"
+      },
+      "evidence_text": "UG applicants must be resident Indian citizens, have at least 60% in Class 12, be in first-year regular full-time degree study in 2026-27, have household income below ₹15 lakh, and take the aptitude test.",
+      "evidence_summary": "Exact current UG eligibility section.",
+      "normalized_fact": {
+        "marks_operator": ">=",
+        "marks": 60,
+        "income_operator": "<",
+        "income": 1500000,
+        "year": "first-year UG",
+        "mode": "regular full-time",
+        "aptitude_test": "mandatory"
+      },
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT10-001",
+      "scholarship_id": "PVT10",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [
+        "PVT10-R001",
+        "PVT10-R002",
+        "PVT10-R003"
+      ],
+      "source": {
+        "title": "Santoor Women's Scholarship",
+        "url": "https://santoorscholarships.com/",
+        "source_type": "official_program_site",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Eligibility"
+      },
+      "evidence_text": "Current site says applicants must have passed Class 10 from a local government school, passed Class 12 from a government school/junior college in 2025-26, and enrolled in an undergraduate programme beginning 2026-27.",
+      "evidence_summary": "Current 2026-27 official-program eligibility.",
+      "normalized_fact": {
+        "class10_school": "local government school",
+        "class12_school": "government school/junior college",
+        "class12_year": "2025-26",
+        "UG_start": "2026-27"
+      },
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT10-002",
+      "scholarship_id": "PVT10",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "Santoor Women's Scholarship",
+        "url": "https://santoorscholarships.com/",
+        "source_type": "official_program_site",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Programme / Scholarship Amount / Deadline"
+      },
+      "evidence_text": "The programme supports 1,000 eligible girls in Andhra Pradesh and Maharashtra, pays ₹30,000 per year, and lists 15 October 2026 as the deadline.",
+      "evidence_summary": "Current states, benefit and deadline.",
+      "normalized_fact": {
+        "states": [
+          "Andhra Pradesh",
+          "Maharashtra"
+        ],
+        "amount": 30000,
+        "deadline": "2026-10-15"
+      },
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT06-001",
+      "scholarship_id": "PVT06",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [
+        "PVT06-R001",
+        "PVT06-R002",
+        "PVT06-R003"
+      ],
+      "source": {
+        "title": "Panasonic Group Corporate Citizenship Activities",
+        "url": "https://www.panasonic.com/in/corporate/panasonic-group-corporate-citizenship-activities.html",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Panasonic Scholarship Asia - Ratti Chhatr"
+      },
+      "evidence_text": "Panasonic states Ratti Chhatr provides financial assistance to aspiring engineers at IITs across India and is open to first-year engineering students from low-income families.",
+      "evidence_summary": "Official programme eligibility core, though not a full 2026-27 application rule set.",
+      "normalized_fact": {
+        "year": "first-year engineering",
+        "institution": "IIT",
+        "financial_need": "low-income"
+      },
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE_CURRENT_PROGRAM",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT01-001",
+      "scholarship_id": "PVT01",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "Tata Capital Education - Pankh Scholars",
+        "url": "https://www.tatacapital.com/sustainability/education.html",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Tata Capital Pankh Scholars"
+      },
+      "evidence_text": "Tata Capital says Pankh financially supports academically bright youth from economically challenged communities, with special attention to women, SC, ST and PwD students; applications open from September each year.",
+      "evidence_summary": "Official current programme identity and annual opening pattern; detailed 2026-27 thresholds remain partner-sourced until an official rule page is published.",
+      "normalized_fact": {
+        "application_open_pattern": "September each year"
+      },
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE_PROGRAM",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-GOV01-WEB",
+      "scholarship_id": "GOV01",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "National Scholarship Portal – All Scholarships",
+        "url": "https://scholarships.gov.in/All-Scholarships",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "PM-USP CSSS listing"
+      },
+      "evidence_text": "NSP lists PM-USP CSSS in the 2026-27 scholarship cycle and exposes the current scheme specification/FAQ and application timeline.",
+      "evidence_summary": "Official current-cycle anchor for CSSS; exact eligibility clauses still require linked specification extraction.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": "Current-cycle source; not a substitute for clause-level eligibility."
+    },
+    {
+      "evidence_id": "HARD-GOV02-WEB",
+      "scholarship_id": "GOV02",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "National Scholarship Portal – All Scholarships",
+        "url": "https://scholarships.gov.in/All-Scholarships",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "AICTE Pragati Technical Degree"
+      },
+      "evidence_text": "NSP lists the AICTE Pragati Scholarship Scheme for Girl Students (Technical Degree) for 2026-27 with current application dates and links to scheme specification/FAQ.",
+      "evidence_summary": "Official current-cycle anchor for Pragati.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-GOV03-WEB",
+      "scholarship_id": "GOV03",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "National Scholarship Portal – All Scholarships",
+        "url": "https://scholarships.gov.in/All-Scholarships",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "AICTE Saksham Technical Degree"
+      },
+      "evidence_text": "NSP lists the AICTE Saksham Scholarship Scheme for Specially Abled Students (Technical Degree) for 2026-27 with current application dates and links to specification/FAQ.",
+      "evidence_summary": "Official current-cycle anchor for Saksham.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-GOV04-WEB",
+      "scholarship_id": "GOV04",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "AICTE-Swanath Scholarship Scheme For Students – myScheme",
+        "url": "https://www.myscheme.gov.in/schemes/aicte-ssss",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Details / Eligibility / Documents Required"
+      },
+      "evidence_text": "myScheme states Swanath covers orphans, wards of parents who died due to COVID-19, and wards of Armed Forces/Central Paramilitary Forces martyred in action; family income is not more than ₹8 lakh; study is in AICTE-approved degree/diploma programmes; current-year income and category-specific evidence are listed.",
+      "evidence_summary": "Official scheme-page eligibility and document evidence for Swanath.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-GOV05-WEB",
+      "scholarship_id": "GOV05",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "Top Class Education in College for OBC, EBC and DNT Students",
+        "url": "https://socialjustice.gov.in/index.php/schemes/110",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Active Documents"
+      },
+      "evidence_text": "The Department of Social Justice & Empowerment publishes the 2026-27 list of Top Class institutions and slot allocations for the OBC/EBC/DNT college scheme.",
+      "evidence_summary": "Official 2026-27 scheme-status and institution-coverage anchor.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": "Detailed eligibility clauses still rely on earlier guideline until a 2026-27 guideline is published/indexed."
+    },
+    {
+      "evidence_id": "HARD-GOV06-WEB",
+      "scholarship_id": "GOV06",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "Central Sector Scholarship of Top Class Education for SC Students",
+        "url": "https://socialjustice.gov.in/index.php/schemes/27",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Scheme Guidelines for 2026-27"
+      },
+      "evidence_text": "The Department states the scheme covers SC students pursuing studies beyond Class 12 in empanelled institutions and publishes Scheme Guidelines for 2026-27.",
+      "evidence_summary": "Official 2026-27 scheme guideline anchor.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": "PDF exists but the government server timed out during automated extraction; source is preserved for later local download."
+    },
+    {
+      "evidence_id": "HARD-GOV09-WEB",
+      "scholarship_id": "GOV09",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "National Scholarship Portal – All Scholarships",
+        "url": "https://scholarships.gov.in/All-Scholarships",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "National Scholarship for Post Graduate Studies"
+      },
+      "evidence_text": "NSP lists the National Scholarship for Post Graduate Studies in the current scholarship cycle with linked specification/FAQ and timeline.",
+      "evidence_summary": "Official current-cycle anchor for the PG scholarship.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-GOV10-WEB",
+      "scholarship_id": "GOV10",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "PIB – Educational Scholarships for Children of Beedi, Cine and Mine Workers 2026-27",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2271267&lang=2&reg=48",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Scholarship announcement"
+      },
+      "evidence_text": "The Ministry of Labour & Employment, through PIB, announces the 2026-27 education-assistance cycle for wards of eligible worker categories and directs applications through NSP.",
+      "evidence_summary": "Official 2026-27 worker-ward scholarship anchor.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT02-WEB",
+      "scholarship_id": "PVT02",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "HDFC Bank Parivartan ECSS Programme",
+        "url": "https://www.parivartanecss.com/",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Eligibility / Documents"
+      },
+      "evidence_text": "The current programme site states Indian nationality, minimum previous-exam marks, family-income ceiling, education categories, and lists supporting documents including academic, admission, bank, income and crisis evidence.",
+      "evidence_summary": "Current programme-site eligibility and document anchor.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_PROGRAM_SITE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT04-WEB",
+      "scholarship_id": "PVT04",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "Reliance Foundation Scholarships 2026-27",
+        "url": "https://www.reliancefoundation.org/media/media-release/Reliance_Foundation_Scholarships_2026-27",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Postgraduate Scholarships"
+      },
+      "evidence_text": "The official 14 August 2026 announcement confirms 100 postgraduate awards for first-year full-time PG students in future-ready Engineering, Technology, Energy and Life Sciences, with support up to ₹6 lakh.",
+      "evidence_summary": "Official 2026-27 PG programme anchor.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "VERIFIED_OFFICIAL_WEBPAGE",
+      "retrieved_at": "2026-10-01",
+      "notes": null
+    },
+    {
+      "evidence_id": "HARD-PVT05-WEB",
+      "scholarship_id": "PVT05",
+      "academic_year": "2026-27",
+      "supports_rule_ids": [],
+      "source": {
+        "title": "Kotak Education Foundation",
+        "url": "https://kotakeducation.org/",
+        "source_type": "official_webpage",
+        "publication_date": null
+      },
+      "locator_type": "web_section",
+      "locator": {
+        "section": "Scholarship programmes"
+      },
+      "evidence_text": "Kotak Education Foundation is the provider-side organization for Kotak education initiatives; however, a current 2026-27 Kotak Kanya rule page was not indexed in the official site during this research.",
+      "evidence_summary": "Provider identity anchor only; not sufficient for current eligibility.",
+      "normalized_fact": null,
+      "evidence_level": 2,
+      "verification_status": "OFFICIAL_PROVIDER_ONLY_RULES_UNVERIFIED",
+      "retrieved_at": "2026-10-01",
+      "notes": "Keep current Kotak Kanya eligibility as secondary-source evidence until provider publishes/indexes current rules."
+    }
+  ]
+}

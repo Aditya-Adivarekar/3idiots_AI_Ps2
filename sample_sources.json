@@ -1,0 +1,23 @@
+[
+  {
+    "id": "gov-central-scholarship",
+    "name": "Government scholarship portal",
+    "source_type": "government_portal",
+    "jurisdiction": "central",
+    "url": "file:///C:/Users/aduad/OneDrive/Desktop/PROJECTS/yojanasetu-dashboard/scholarship_pipeline/fixtures/government_notice.html"
+  },
+  {
+    "id": "college-notice-board",
+    "name": "College notice board",
+    "source_type": "college_notice",
+    "jurisdiction": "state",
+    "url": "file:///C:/Users/aduad/OneDrive/Desktop/PROJECTS/yojanasetu-dashboard/scholarship_pipeline/fixtures/college_notice.html"
+  },
+  {
+    "id": "pdf-handbook",
+    "name": "PDF scholarship handbook",
+    "source_type": "pdf_document",
+    "jurisdiction": "state",
+    "url": "file:///C:/Users/aduad/OneDrive/Desktop/PROJECTS/yojanasetu-dashboard/scholarship_pipeline/fixtures/scholarship_handbook.pdf"
+  }
+]
